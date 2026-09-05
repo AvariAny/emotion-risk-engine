@@ -25,4 +25,11 @@ def predict(text):
 
     probabilities = torch.sigmoid(outputs.logits)[0]
 
-    return probabilities.tolist()
+    probabilities = probabilities.tolist()
+
+    print("\nEmotion probabilities:\n")
+
+    for i, value in enumerate(probabilities):
+        print(f"{i:2d}: {value:.4f}")
+
+    return probabilities
