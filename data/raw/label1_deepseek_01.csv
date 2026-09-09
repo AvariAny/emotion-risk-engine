@@ -1,0 +1,251 @@
+text,label
+"Últimamente siento que no rindo bien en el trabajo.",1
+"Estoy preocupado por los gastos de este mes.",1
+"Ando con mucho estrés por la entrega del proyecto.",1
+"No sé cómo voy a terminar todos mis pendientes.",1
+"Llevo varios días sin descansar bien.",1
+"Me siento un poco agobiado con tanta responsabilidad.",1
+"La carga de trabajo me tiene agotado mentalmente.",1
+"Me está costando mantener la concentración en las clases.",1
+"La situación económica no anda muy bien.",1
+"Ando distraído, no logro enfocarme en lo que hago.",1
+"Siento que no avanzo con mis proyectos personales.",1
+"El tráfico me tiene harto, pierdo mucho tiempo.",1
+"Estoy algo nervioso por la presentación de mañana.",1
+"El ruido constante me está irritando bastante.",1
+"Me preocupa no poder cumplir con los plazos.",1
+"Estoy muy cansado de la rutina diaria.",1
+"No encuentro motivación para hacer ejercicio.",1
+"Últimamente todo me parece un esfuerzo enorme.",1
+"Me siento un poco desconectado de mis amigos.",1
+"La carga académica está siendo excesiva.",1
+"Ando con dolores de cabeza seguido.",1
+"El trabajo remoto me tiene un poco aislado.",1
+"Me estresa pensar en el futuro laboral.",1
+"No duermo bien desde que empecé este nuevo proyecto.",1
+"Siento que no tengo tiempo para mí.",1
+"Estoy preocupado por los estudios de mi hijo.",1
+"La presión de mi jefe me está afectando.",1
+"Me cuesta levantarme con energía por las mañanas.",1
+"Ando con la mente en blanco todo el día.",1
+"No sé cómo equilibrar trabajo y vida personal.",1
+"Las deudas me tienen algo intranquilo.",1
+"Me siento presionado por las expectativas de mi familia.",1
+"La falta de sueño me está pasando factura.",1
+"Siento que mi esfuerzo no es reconocido.",1
+"Estoy frustrado con mi desempeño profesional.",1
+"Últimamente tengo cambios de humor sin razón.",1
+"Ando con un poco de ansiedad por la mudanza.",1
+"Las discusiones en casa me tienen agotado.",1
+"Me da miedo no estar a la altura del nuevo puesto.",1
+"Estoy abrumado con tantas responsabilidades nuevas.",1
+"Siento que el tiempo no me alcanza para nada.",1
+"Ando con la autoestima un poco baja últimamente.",1
+"El calor extremo me tiene sin energía.",1
+"Me siento solo aunque esté rodeado de gente.",1
+"Los problemas técnicos me estresan mucho.",1
+"Estoy preocupado por mis resultados académicos.",1
+"No logro desconectarme del trabajo en casa.",1
+"Me duele la cabeza constantemente por el estrés.",1
+"Siento que no avanzo en mis metas personales.",1
+"La falta de comunicación me está afectando.",1
+"Estoy algo inquieto por la reunión de mañana con los socios.",1
+"Me siento un poco desanimado con mi proyecto personal.",1
+"El tránsito pesado me tiene de mal humor toda la semana.",1
+"No logro conciliar el sueño desde que cambiaron mi horario.",1
+"Estoy preocupado por el rendimiento de mis hijos en la escuela.",1
+"El exceso de ruido en la oficina me está afectando.",1
+"Me siento presionado por la competencia en el trabajo.",1
+"Las cuentas del mes me tienen algo intranquilo.",1
+"Últimamente todo me parece más difícil de lo normal.",1
+"Estoy frustrado porque no avanza mi proyecto de tesis.",1
+"Ando con un poco de insomnio por las noches.",1
+"El clima está afectando mi estado de ánimo.",1
+"Me estresa pensar en los cambios en la empresa.",1
+"Siento que no estoy aprovechando bien mi tiempo libre.",1
+"La relación con mi pareja está pasando por un bache.",1
+"El bullicio de la ciudad me está desgastando.",1
+"Me preocupa no poder costear los gastos del próximo mes.",1
+"Estoy algo nervioso por la entrevista de trabajo.",1
+"La carga de deberes en la universidad me sobrepasa.",1
+"Me siento un poco aislado desde que me mudé.",1
+"El teléfono suena todo el día y no descanso.",1
+"Últimamente tengo dolores musculares sin razón aparente.",1
+"Estoy abrumado con la organización de mi boda.",1
+"Me da ansiedad tener que hablar en público.",1
+"La rutina del gimnasio me está agotando más que energizándome.",1
+"El ruido de los vecinos me está volviendo loco.",1
+"Estoy preocupado por los cambios en la empresa familiar.",1
+"Me cuesta encontrar tiempo para hacer ejercicio.",1
+"La presión de mi círculo social me está afectando.",1
+"El clima de mi oficina se está volviendo tóxico.",1
+"Estoy algo inquieto por los resultados médicos de mi papá.",1
+"La falta de sueño me está haciendo menos productivo.",1
+"El trato con mi suegra no anda muy bien.",1
+"Estoy estresado porque mi auto empezó a fallar.",1
+"Me siento agobiado con tantas decisiones que tomar.",1
+"El ritmo de la ciudad me tiene sin paciencia.",1
+"Estoy preocupado por la salud de mi mascota.",1
+"El consumo de mi hogar aumentó y me preocupa.",1
+"La dinámica de mi grupo de estudio es complicada.",1
+"Me siento incómodo con los cambios en mi departamento.",1
+"La presión del mercado laboral me preocupa.",1
+"Estoy algo confundido con mi carrera profesional.",1
+"El trato con algunos clientes es agotador.",1
+"Me despierto cansado aunque duerma las horas necesarias.",1
+"Estoy preocupado por la seguridad en mi barrio.",1
+"La relación con mi hermano se ha vuelto tensa.",1
+"Me estresa la falta de estabilidad en el trabajo.",1
+"La tecnología me abruma con tanto cambio constante.",1
+"Estoy inseguro sobre mi decisión de cambiar de carrera.",1
+"El tiempo en redes sociales me está afectando el ánimo.",1
+"El Wi-Fi de mi casa siempre falla y eso me estresa.",1
+"Creo que mi jefe no valora mi esfuerzo.",1
+"Ando con dolor de espalda por la mala postura.",1
+"Me preocupa no poder viajar a ver a mi familia este año.",1
+"Estoy un poco triste por la distancia con mis amigos.",1
+"El nuevo sistema del trabajo es complicado y me confunde.",1
+"No sé cómo decirle que no a mi amiga.",1
+"La inflación me tiene pensando en recortar gastos.",1
+"Los vecinos hicieron fiesta y no pude dormir nada.",1
+"Me siento presionada por mi familia para tener hijos.",1
+"El nuevo profesor es muy exigente y me estresa.",1
+"Mi celular se dañó y no tengo para arreglarlo.",1
+"Estoy preocupado por el examen de manejo.",1
+"Ando con la presión arterial un poco alterada.",1
+"La discusión con mi pareja me tiene inquieto.",1
+"Me aburre mi trabajo de oficina, quiero cambiar.",1
+"Los niños están muy inquietos y no sé qué hacer.",1
+"El precio de la comida subió demasiado.",1
+"Me siento culpable por no visitar a mi abuela.",1
+"El nuevo compañero es difícil de tratar.",1
+"Estoy preocupada por mi piel, tiene alergias.",1
+"El proyecto de la uni se está atrasando.",1
+"Mi bici necesita reparación y no tengo dinero.",1
+"La presión de ser madre soltera me agota.",1
+"No me gusta mi nuevo corte de cabello.",1
+"El vecino se queja por cualquier cosa.",1
+"Mi hermana y yo discutimos por tonterías.",1
+"El tráfico me hace perder tiempo valioso.",1
+"Me siento raro, sin ganas de hacer nada.",1
+"El nuevo jefe no sabe delegar y nos satura.",1
+"Mi gato se lastimó y me tiene preocupado.",1
+"El semestre se me complicó con muchas tareas.",1
+"La relación con mi hijo adolescente es difícil.",1
+"Me da miedo conducir de noche.",1
+"El costo de la renta me tiene angustiado.",1
+"Mi grupo de amigos cambió mucho y no encajo.",1
+"Las noticias siempre son malas y me deprimen.",1
+"El nuevo proyecto es muy ambicioso y me asusta.",1
+"Mi máquina de coser se descompuso.",1
+"Estoy cansada de los mismos chistes de mi marido.",1
+"El perro de mi vecino no deja de ladrar.",1
+"Me preocupa no poder comprar regalos de navidad.",1
+"Mi padre está enfermo y necesito cuidarlo.",1
+"El transporte público está muy saturado.",1
+"Me siento invisible en mi nuevo trabajo.",1
+"El ruido de la construcción me está volviendo loco.",1
+"Mi abuela se confunde mucho últimamente.",1
+"Estoy estresado con los trámites de la visa.",1
+"El internet anda muy lento y necesito trabajar.",1
+"Me siento culpable por comer demasiado.",1
+"Ya no sé qué cocinar, siempre lo mismo me tiene harto.",1
+"Me siento presionado para comprar casa y no puedo.",1
+"El nuevo vecino tiene el volumen muy alto todo el día.",1
+"Mi computadora se apaga sola y pierdo el trabajo.",1
+"Ando preocupada por mi hija que anda mal en la escuela.",1
+"El doctor me dijo que debo bajar de peso y me estresa.",1
+"Mi amigo me pidió dinero y no sé cómo decirle que no.",1
+"El clima está cambiando mucho y me afecta la alergia.",1
+"La terapia del niño es muy cara, no sé cómo pagarla.",1
+"Mi esposo no me ayuda con los quehaceres.",1
+"El ascensor del edificio siempre está dañado.",1
+"Me preocupa no tener suficiente para el retiro.",1
+"Los niños no quieren hacer tarea y me desespero.",1
+"Mi mamá se queja de que no la visito suficiente.",1
+"El nuevo formato de facturación es muy complicado.",1
+"Me duele el cuello de estar tanto tiempo frente a la computadora.",1
+"Mi hermana se lleva mal con mi novio y eso me incomoda.",1
+"El banco me rechazó el crédito que solicité.",1
+"Estoy cansado de las mismas excusas de mi equipo.",1
+"La calle principal está en reparación y el desvío es largo.",1
+"Mi hijo quiere un celular caro y no puedo comprarlo.",1
+"El nuevo sistema de la escuela no sirve bien.",1
+"Mi suegra critica todo lo que hago.",1
+"La presión del grupo me hace hacer cosas que no quiero.",1
+"Me estresa no tener un día libre esta semana.",1
+"El café de la oficina está muy malo.",1
+"Mi gato no quiere comer y me preocupa.",1
+"La luz se fue justo cuando estaba trabajando.",1
+"Mi compañero de cuarto es muy desordenado.",1
+"El tránsito está peor que siempre por las obras.",1
+"Me siento aburrido con mi misma rutina de siempre.",1
+"Mi sobrino siempre llora y no sé cómo calmarlo.",1
+"El ascenso que esperaba se lo dieron a otro.",1
+"La comida que pedí llegó fría y me enojé.",1
+"Mi bicicleta se ponchó a media calle.",1
+"Los vecinos se quejan de mi música, aunque no es alta.",1
+"Mi hermana menor se quiere mudar y me preocupa.",1
+"El nuevo proyecto es muy difícil de entender.",1
+"Mi jefe siempre me llama fuera de hora.",1
+"La lavadora se descompuso y ahora qué hago.",1
+"Me inquieta no haber recibido respuesta aún.",1
+"Mi hermano se metió en problemas y no sé cómo ayudar.",1
+"El estacionamiento de mi trabajo es muy caro.",1
+"Mi abuela olvida las cosas y eso me angustia.",1
+"El entrenador es muy duro conmigo en el gimnasio.",1
+"Mi teléfono se quedó sin memoria y no puedo instalar apps.",1
+"El partido del domingo lo perdieron y me amargó.",1
+"Mi prima siempre llega tarde y me desespera.",1
+"El proyecto de la escuela es muy extenso y cansado.",1
+"Mi gimnasio subió la cuota y no sé si seguir.",1
+"El nuevo horario de trabajo me tiene completamente desajustado.",1
+"Mi hija está en una etapa rebelde y no sé cómo manejarlo.",1
+"La hipoteca aumenta cada año y eso me preocupa.",1
+"Me siento agotado de tener que explicar lo mismo siempre.",1
+"El agua de mi casa sale con mala presión.",1
+"Estoy preocupado por el rendimiento de mi auto.",1
+"Mi mejor amigo se va a vivir lejos y me da tristeza.",1
+"El nuevo software de la empresa es muy lento.",1
+"Mis suegros quieren venir a vivir con nosotros.",1
+"El precio de la gasolina no para de subir.",1
+"Me cuesta trabajo concentrarme por el calor.",1
+"Mi jefe cambió de opinión a última hora otra vez.",1
+"El sistema de salud es muy complicado de entender.",1
+"Mi hermana está pasando por un divorcio y me angustia.",1
+"El vecino de arriba hace mucho ruido por las noches.",1
+"Me siento frustrado con mi proyecto de emprendimiento.",1
+"El nuevo curso es más difícil de lo que esperaba.",1
+"Mi hijo se quiere salir de la escuela.",1
+"El servicio de internet es pésimo en mi zona.",1
+"Me preocupa no poder darle una buena educación a mis hijos.",1
+"Mi perro se enfermó y la cuenta del veterinario es alta.",1
+"El tráfico del centro me tiene exasperado.",1
+"Mi esposa y yo discutimos por las finanzas.",1
+"El nuevo programa de televisión es muy aburrido.",1
+"Me siento presionada por la familia para casarme.",1
+"La oficina está muy fría y no podemos cambiar la temperatura.",1
+"Mi vecino estaciona su carro frente a mi entrada.",1
+"El examen de admisión me tiene muy nervioso.",1
+"Mi jefe no me toma en cuenta para los proyectos importantes.",1
+"El costo del colegio privado es cada vez más alto.",1
+"Me siento incómodo con el nuevo miembro del equipo.",1
+"La impresora siempre se atasca y es frustrante.",1
+"Mi hijo está obsesionado con los videojuegos.",1
+"El ruido de la construcción no me deja descansar.",1
+"Mi mamá se siente sola y me preocupa.",1
+"El cambio de clima me tiene resfriado y sin energía.",1
+"Mi hermano se lleva mejor con mi novia que conmigo.",1
+"La fila del banco siempre es demasiado larga.",1
+"Me estresa pensar en el futuro de mi carrera.",1
+"Mi gato araña los muebles y me desespera.",1
+"El sistema de puntos en el trabajo es muy confuso.",1
+"Me duele la cabeza con tanta luz en la oficina.",1
+"Mi sobrina no quiere comer verduras.",1
+"El costo de la luz subió demasiado este mes.",1
+"Mi pareja no entiende mi estrés laboral.",1
+"El nuevo vecino no saluda y me parece raro.",1
+"Me preocupa mi estabilidad en el trabajo actual.",1
+"Mi computadora portátil está muy lenta.",1
+"El restaurante que me gusta cerró definitivamente.",1
+"Me siento culpable por no ayudar más en casa.",1
