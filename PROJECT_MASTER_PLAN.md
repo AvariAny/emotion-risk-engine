@@ -2,67 +2,155 @@
 
 ## Project Overview
 
-Emotion Risk Engine is an artificial intelligence system designed to analyze conversations and estimate the emotional risk level of a user in real time.
+Emotion Risk Engine is an AI-powered backend capable of estimating emotional risk from natural language conversations using Transformer-based models.
 
-The engine is intended to work as a backend service that can be integrated into chatbots, messaging platforms, mobile applications, or web systems.
+The system classifies text into four risk levels and is designed to be integrated into chatbots, mental health platforms, or monitoring systems.
 
 ---
 
 ## Vision
 
-Build an AI-powered emotional risk assessment engine capable of detecting potentially dangerous emotional states using Natural Language Processing and Transformer-based models.
+Build a modular and explainable emotional risk analysis engine using modern NLP techniques.
 
 ---
 
 ## Main Goals
 
 - Detect emotional risk from text.
-- Estimate a risk level.
-- Explain why the prediction was made.
-- Expose the engine through an API.
-- Make the system modular and extensible.
+- Classify into four predefined risk levels.
+- Expose predictions through a REST API.
+- Keep the system modular and extensible.
+- Support future explainability and model improvements.
 
 ---
 
 ## Architecture
 
-Pending...
+Current architecture:
+
+Dataset
+↓
+
+Data Cleaning
+
+↓
+
+DistilBERT Model
+
+↓
+
+Risk Classification
+
+↓
+
+Prediction Service
+
+↓
+
+REST API (Upcoming)
+
+↓
+
+Frontend (Upcoming)
 
 ---
 
 ## Tech Stack
 
-Pending...
+- Python 3.14
+- PyTorch
+- Hugging Face Transformers
+- Datasets
+- Scikit-Learn
+- Pandas
+- FastAPI (planned)
+- Docker (planned)
 
 ---
 
 ## Dataset
 
-Pending...
+Current dataset:
+
+- 2010 manually annotated examples
+- Four balanced classes
+- CSV format
+- Human-reviewed annotations
+
+Risk levels:
+
+0 — No Risk
+
+1 — Low Risk
+
+2 — High Risk
+
+3 — Critical Risk
 
 ---
 
 ## Machine Learning Model
 
-Pending...
+Model:
+
+- DistilBERT
+- Sequence Classification
+- Four output classes
+
+Current performance:
+
+Accuracy: ~82%
+
+Weighted F1: ~82%
 
 ---
 
 ## Risk Engine
 
-Pending...
+Current capabilities:
+
+✔ Load trained model
+
+✔ Predict emotional risk
+
+✔ Interactive console predictions
+
+Future capabilities:
+
+- Confidence score
+- Explainability
+- Conversation context
+- Rule-based post-processing
 
 ---
 
 ## API
 
-Pending...
+Status:
+
+Planned
+
+Endpoints:
+
+POST /predict
+
+GET /health
+
+GET /version
 
 ---
 
 ## Frontend
 
-Pending...
+Status:
+
+Planned
+
+Future interface:
+
+- Text input
+- Risk visualization
+- Confidence indicator
 
 ---
 
@@ -70,14 +158,32 @@ Pending...
 
 Sprint 0 — Foundation
 
-- [x] Create repository
-- [x] Configure Git
-- [x] Create documentation
-- [ ] Design architecture
-- [ ] Design Risk Engine
+[x] Repository
+
+[x] Documentation
+
+[x] Dataset
+
+[x] Model Training
+
+[x] Model Evaluation
+
+[x] Prediction Script
+
+[ ] REST API
+
+[ ] Frontend
+
+[ ] Docker
+
+[ ] Deployment
 
 ---
 
 ## Current Status
 
-Project initialization.
+Machine Learning pipeline completed.
+
+Current phase:
+
+API Development.
