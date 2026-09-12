@@ -13,7 +13,8 @@ from transformers import (
 )
 
 DATASET_PATH = Path("data/processed/emotion_risk_dataset.csv")
-MODEL_PATH = Path("models/emotion_model")
+MODEL_OUTPUT = Path("models/emotion_model")
+BASE_MODEL = "distilbert-base-uncased"
 
 print("Cargando dataset...")
 df = pd.read_csv(DATASET_PATH)
@@ -41,7 +42,9 @@ train_dataset = Dataset.from_pandas(train_df)
 val_dataset = Dataset.from_pandas(val_df)
 
 print("\nCargando tokenizer...")
-tokenizer = DistilBertTokenizerFast.from_pretrained(str(MODEL_PATH))
+tokenizer = DistilBertTokenizerFast.from_pretrained(
+    BASE_MODEL
+)
 
 def tokenize(batch):
     return tokenizer(
@@ -71,9 +74,8 @@ print(f"Val features: {val_dataset.column_names}")
 
 print("\nCargando DistilBERT...")
 model = DistilBertForSequenceClassification.from_pretrained(
-    str(MODEL_PATH),
+    BASE_MODEL,
     num_labels=4,
-    ignore_mismatched_sizes=True,
 )
 
 model.config.problem_type = "single_label_classification"
@@ -125,13 +127,13 @@ print("\nIniciando entrenamiento...")
 trainer.train()
 
 print("\nGuardando modelo...")
-trainer.save_model(str(MODEL_PATH))
-tokenizer.save_pretrained(str(MODEL_PATH))
+trainer.save_model(str(MODEL_OUTPUT))
+tokenizer.save_pretrained(str(MODEL_OUTPUT))
 
 print("Modelo guardado correctamente.")
 
 print("\nResumen del entrenamiento:")
-print(f"Modelo guardado en: {MODEL_PATH}")
+print(f"Modelo guardado en: {MODEL_OUTPUT}")
 print(f"Total de ejemplos: {len(df)}")
 print(f"Entrenamiento: {len(train_df)}")
 print(f"Validacion: {len(val_df)}")

@@ -1,21 +1,18 @@
-# Python
-__pycache__/
-*.py[cod]
-
 # Virtual environment
 .venv/
 
-# VS Code
-.vscode/
+# Python
+__pycache__/
+*.pyc
+
+# Hugging Face checkpoints
+results/
+
+# Trained models
+models/
+
+# Temporary
+tmp_trainer/
 
 # Jupyter
 .ipynb_checkpoints/
-
-# Modelos grandes
-*.safetensors
-
-# Logs
-*.log
-
-# OS
-.DS_Store

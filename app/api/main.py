@@ -1,17 +1,43 @@
-"""
-Simple API entry point.
-"""
+from fastapi import FastAPI
+from pydantic import BaseModel
 
-from app.engine.analyzer import analyze_text
+from app.services.emotion_model import EmotionRiskModel
+
+app = FastAPI(
+    title="Emotion Risk Engine API",
+    version="1.0.0",
+    description="API para evaluar riesgo emocional utilizando DistilBERT.",
+)
+
+model = EmotionRiskModel()
 
 
-def main():
-    text = input("Enter a message: ")
-
-    score = analyze_text(text)
-
-    print(f"\nRisk score: {score}")
+class PredictionRequest(BaseModel):
+    text: str
 
 
-if __name__ == "__main__":
-    main()
+@app.get("/")
+def root():
+    return {
+        "message": "Emotion Risk Engine API",
+        "status": "running"
+    }
+
+
+@app.get("/health")
+def health():
+    return {
+        "status": "ok"
+    }
+
+
+@app.get("/version")
+def version():
+    return {
+        "version": "1.0.0"
+    }
+
+
+@app.post("/predict")
+def predict(request: PredictionRequest):
+    return model.predict(request.text)

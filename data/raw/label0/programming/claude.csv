@@ -1,0 +1,52 @@
+text,label
+"por fin arregle ese bug que me tuvo toda la mañana",0
+"mi api ya esta andando, faltaba un header nomas",0
+"me olvide de hacer commit antes de cerrar la compu",0
+"git me tiro otro merge conflict 😂 clasico de los viernes",0
+"hoy arranco a entrenar un modelo nuevo con el dataset actualizado",0
+"el deploy termino bien, ya esta en produccion",0
+"la migracion de la base de datos tardo una eternidad",0
+"tengo que refactorizar esta funcion, quedo un desastre",0
+"revisando un pull request de un compañero, esta bastante prolijo",0
+"el pipeline de ci se rompio otra vez, ya lo estoy viendo",0
+"armando los endpoints nuevos para la api de usuarios",0
+"probando el modelo con datos nuevos a ver que tal generaliza",0
+"el contenedor de docker no queria levantar, ya lo solucione",0
+"escribiendo tests unitarios para el modulo de pagos",0
+"la query tarda demasiado, hay que optimizar los indices",0
+"me anote a un curso de rust para aprender algo nuevo",0
+"revisando el codigo legacy, hay bastante para limpiar",0
+"el frontend ya consume bien los datos del backend",0
+"configurando las variables de entorno para el nuevo servidor",0
+"encontre el error, era un typo en el nombre de la variable",0
+"armando la documentacion de la api antes de la entrega",0
+"probando react native por primera vez para el proyecto nuevo",0
+"el servidor se cayo a la madrugada, ya esta arriba de nuevo",0
+"revisando los logs para encontrar por que falla el login",0
+"terminando de armar el esquema de la base de datos",0
+"subiendo el proyecto a gitlab antes de la reunion",0
+"probando fastapi para el nuevo microservicio",0
+"el modelo de tensorflow tardo horas en entrenar anoche",0
+"arreglando el estilo del componente en react",0
+"la funcion asincrona no esperaba bien la respuesta, ya lo arregle",0
+"configurando el ci/cd para que despliegue automatico",0
+"probando hugging face para el proyecto de nlp",0
+"revisando el diseño de la api con el equipo de backend",0
+"me tiro timeout la conexion a la base de datos",0
+"armando los mocks para probar el modulo sin el server real",0
+"aprendiendo go para un proyecto nuevo que arranca el mes que viene",0
+"el bug era un problema de concurrencia, dificil de encontrar",0
+"probando docker compose para levantar todos los servicios juntos",0
+"revisando el codigo antes de mergear a main",0
+"la app en flutter ya corre bien en ios y android",0
+"configurando el logging para debuggear mas facil en produccion",0
+"terminando de escribir la migracion antes de correrla",0
+"probando pytorch para el modelo de clasificacion",0
+"el linter marco un monton de warnings, los voy arreglando",0
+"armando el readme del repo antes de compartirlo",0
+"revisando por que el build falla solo en el pipeline",0
+"probando graphql en vez de rest para esta api nueva",0
+"el codigo compilo a la primera, raro pero bienvenido",0
+"configurando el balanceador de carga para el nuevo servicio",0
+"terminando de armar los tests de integracion",0
+"revisando la performance del modelo despues del ultimo entrenamiento",0

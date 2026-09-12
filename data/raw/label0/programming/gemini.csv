@@ -1,0 +1,51 @@
+text,label
+"Pasame el payload del endpoint de registro para probarlo en Postman a ver qué código devuelve",0
+"Al fin encontré el bug, tenía un punto y coma adentro de una condición en el script de bash",0
+"Quién metió mano en la rama main sin pasar por el pull request? Se rompieron los tests de integración",0
+"Dejé entrenando el modelo de visión con PyTorch en la GPU remota, tarda como cuatro horas",0
+"Fijate si podés darle un vistazo a mi PR de TypeScript que me tira error de tipado en el reducer",0
+"No me levanta el contenedor de redis con docker compose, dice que el puerto 6379 ya está ocupado",0
+"Tardé dos horas buscando el error y resulta que era una coma faltante en el JSON de configuración 🤦‍♂️",0
+"Conviene migrar el backend a FastAPI o seguimos metiéndole fichas a Django con DRF?",0
+"Revertí el último commit con git reset soft para no perder los cambios locales que no commitié",0
+"La consulta SQL tardaba ocho segundos en responder hasta que le creé un índice compuesto por fecha y usuario",0
+"Qué extensión recomiendan en VS Code para formatear código en Go según los estándares oficiales?",0
+"Subí los cambios del layout responsive a la rama dev, pruébenlo en resoluciones chicas a ver si rompe",0
+"El garbage collector de Java me está comiendo toda la memoria del microservicio en producción",0
+"Listo el pipeline de CI/CD en GitHub Actions, ahora compila y corre los linters de forma automática",0
+"Alguien sabe por qué Flutter no me detecta el emulador de Android después de actualizar el SDK?",0
+"Me pasé toda la tarde refactorizando una función de doscientas líneas para dejarla en tres métodos chicos",0
+"Tengo que implementar la autenticación con JWT antes de que termine el sprint actual",0
+"Mandame el log del pod de Kubernetes que se reinició solo para ver el motivo del crash",0
+"Por suerte el rollback en AWS fue automático cuando la nueva versión empezó a tirar respuestas 500",0
+"Che qué belleza la velocidad de compilación de Rust cuando tenés el caché bien configurado",0
+"Puse un debounce en el input del buscador de React para no saturar el servidor con tantas llamadas",0
+"El cliente pide que la app móvil soporte modo offline sincronizando con SQLite local",0
+"Cambié la dependencia vulnerable por la última versión estable que publicaron en npm",0
+"Alguien probó los transformers de Hugging Face para clasificación de texto en español? Andan finos",0
+"Se me cerró PyCharm de golpe mientras indexaba el proyecto y no alcancé a guardar los scratch files",0
+"Armé un hook personalizado para manejar el estado global del carrito sin meter Redux al proyecto",0
+"Falta configurar las variables de entorno en el archivo .env del servidor antes de correr la migración",0
+"El script de web scraping se frena a la mitad porque la página mete captcha después de 50 requests",0
+"Hice un git rebase con la rama principal y me salieron cinco conflictos de merge seguidos jaja",0
+"Qué base de datos documental recomiendan para guardar eventos en tiempo real sin perder consistencia?",0
+"Dejé corriendo el linter en todo el repositorio y me marcó más de ochenta advertencias de estilo",0
+"Le agregué un middleware a Node.js para medir los tiempos de respuesta de cada ruta del backend",0
+"No me compila el módulo en C++ porque falta enlazar la biblioteca compartida en el CMakeLists",0
+"Pudieron resolver el bug del token que expiraba antes de tiempo en las sesiones de mobile?",0
+"Subí una nueva versión del paquete a PyPI con soporte oficial para Python 3.12",0
+"El webhook de Mercado Pago no me está impactando en local, tengo que levantar ngrok de nuevo",0
+"Documenté todos los parámetros del nuevo microservicio en Swagger para que los del front lo tengan claro",0
+"Tengo que actualizar los drivers de CUDA en el servidor para que reconozca la placa nueva",0
+"Qué golazo que es usar zod para validar esquemas en el backend, te ahorra un montón de validaciones a mano",0
+"El build de Vite tardó apenas tres segundos contra los dos minutos que tardaba con Webpack",0
+"Avisen si alguno tiene experiencia configurando Nginx como reverse proxy para balanceo de carga",0
+"Metí un try catch global en el worker de Celery para atrapar excepciones que colgaban la cola",0
+"Quedó lista la paginación basada en cursor para el feed, ahora carga al toque sin saltos de contenido",0
+"Quién tiene un template básico en Terraform para aprovisionar un bucket de S3 con acceso privado?",0
+"Se cayó la base de datos de pruebas porque alguien tiró un delete sin cláusula where, clásico novato 😂",0
+"Tuve que instalar Linux en dual boot porque compilar el kernel desde WSL me andaba a los tirones",0
+"Optimizamos los assets del bundle inicial y logramos bajar el tamaño de descarga a la mitad",0
+"El test unitario fallaba porque mockeé mal la llamada asíncrona a la base de datos",0
+"Mañana me toca presentar el demo técnico de la nueva arquitectura hexagonal al resto del equipo",0
+"Cerré todos los issues del tablero de Jira asignados a este ciclo, mañana arrancamos planning fresco",0

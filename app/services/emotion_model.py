@@ -1,35 +1,58 @@
-from transformers import AutoTokenizer, AutoModelForSequenceClassification
-import torch
-import os
+from pathlib import Path
 
-MODEL_PATH = os.path.join(
-    os.path.dirname(__file__),
-    "../../models/emotion_model"
+import torch
+from transformers import (
+    DistilBertForSequenceClassification,
+    DistilBertTokenizerFast,
 )
 
-tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
-model = AutoModelForSequenceClassification.from_pretrained(MODEL_PATH)
 
-model.eval()
+MODEL_PATH = Path("models/emotion_model")
 
-def predict(text):
-    inputs = tokenizer(
-        text,
-        return_tensors="pt",
-        truncation=True,
-        padding=True
-    )
+LABELS = {
+    0: "Sin riesgo",
+    1: "Riesgo bajo",
+    2: "Riesgo alto",
+    3: "Riesgo crítico",
+}
 
-    with torch.no_grad():
-        outputs = model(**inputs)
 
-    probabilities = torch.sigmoid(outputs.logits)[0]
+class EmotionRiskModel:
+    def __init__(self):
+        print("🧠 Cargando modelo...")
 
-    probabilities = probabilities.tolist()
+        self.tokenizer = DistilBertTokenizerFast.from_pretrained(
+            str(MODEL_PATH)
+        )
 
-    print("\nEmotion probabilities:\n")
+        self.model = DistilBertForSequenceClassification.from_pretrained(
+            str(MODEL_PATH)
+        )
 
-    for i, value in enumerate(probabilities):
-        print(f"{i:2d}: {value:.4f}")
+        self.model.eval()
 
-    return probabilities
+        print("✅ Modelo listo.")
+
+    def predict(self, text: str) -> dict:
+        inputs = self.tokenizer(
+            text,
+            return_tensors="pt",
+            truncation=True,
+            padding=True,
+            max_length=128,
+        )
+
+        with torch.no_grad():
+            outputs = self.model(**inputs)
+
+        probabilities = torch.softmax(outputs.logits, dim=1)
+
+        label = torch.argmax(probabilities, dim=1).item()
+
+        confidence = probabilities[0][label].item()
+
+        return {
+            "label": label,
+            "risk": LABELS[label],
+            "confidence": round(confidence, 4),
+        }
