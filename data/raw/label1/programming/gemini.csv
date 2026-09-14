@@ -1,1 +1,51 @@
 text,label
+"Llevo cuatro horas buscando un NullPointerException y ya me arden los ojos de mirar la pantalla",1
+"El build de producción sigue fallando en el pipeline y la entrega con el cliente es mañana a primera hora",1
+"Me cuesta un huevo entender la lógica de punteros en C++, siento que me re tranco con la memoria",1
+"No me pasa ni un solo test unitario del backend y no entiendo qué mockeé mal en la base de datos",1
+"Hice un git rebase para actualizar mi rama y me saltaron 40 conflictos, qué dolor de cabeza lpm",1
+"Ando re estresado con la migración a TypeScript, me tira errores de tipo en librerías viejas que ni toqué",1
+"Se cayó el contenedor de Docker en el servidor de pruebas y no logro hacer que levante las variables de entorno",1
+"Me da mucha inseguridad mandar este pull request porque cambié casi toda la arquitectura del módulo",1
+"Llegué a casa y sigo pensando en cómo carajos resolver la consulta en SQL para que no tarde una eternidad",1
+"El cliente me rechazó el diseño tres veces seguidas por temas de responsive y tengo que rehacer el CSS",1
+"Tengo el cerebro frito de leer la documentación oficial de AWS, son mil servicios y ninguno explica claro",1
+"Me tiene re tenso este bug de concurrencia en Java, solo pasa una vez cada cincuenta ejecuciones y no lo cazo",1
+"No me sale conectar la pasarela de pagos con el webhook, me responde con error 400 y ya me estoy frustrando",1
+"Esta entrega de la materia de compiladores me tiene al borde del colapso, el parser no reconoce los tokens",1
+"Me desespera que en local todo funcione impecable pero cuando lo subo al staging revienta por todos lados",1
+"Tengo como diez issues abiertos en Jira asignados a mi nombre para este sprint y no llego ni a la mitad",1
+"Qué desgaste pelear con los estados de React, se me renderiza el componente veinte veces por segundo",1
+"El senior me dejó doce comentarios en la revisión del PR y ahora tengo que refactorizar casi todo de cero",1
+"Vengo durmiendo re poco intentando dejar lista la API antes del viernes, me tiene quemadísimo este ritmo",1
+"No logro que el emulador de Flutter me reconozca los permisos de ubicación en Android, qué pérdida de tiempo",1
+"Siento que voy re lento aprendiendo Rust, el borrow checker me rechaza cada línea de código que escribo",1
+"Me preocupa mandarme una macana con la base de datos productiva ahora que toca correr el script de migración",1
+"El websocket se desconecta solo después de dos minutos y ya no sé qué más revisar en la configuración de red",1
+"Tengo que entregar el proyecto de sistemas operativos el lunes y los hilos me siguen generando deadlocks",1
+"Ando con un dolor de espalda terrible de estar tantas horas encorvado tratando de levantar este microservicio",1
+"Qué bronca cuando rompés algo sin querer y tenés que pasarte la tarde haciendo git bisect para ver dónde fue",1
+"Me satura tener que configurar Nginx a mano cada vez que agregamos un subdominio nuevo al cluster",1
+"No entiendo la lógica del algoritmo de grafos que dio el profe, me quedé trabado en el punto dos de la guía",1
+"El bundle de JavaScript me quedó pesadísimo y el análisis de performance me tira todo en rojo, qué bajón",1
+"Siento la cabeza saturadísima de tantas llamadas asíncronas anidadas, tengo que pasar todo a async await",1
+"Me da pánico que el deploy del viernes rompa el login justo antes del fin de semana largo 😩",1
+"No me funciona el hot reload en VS Code de la nada y tener que reiniciar el servidor a mano me saca de quicio",1
+"Llevo toda la tarde lidiando con un problema de CORS entre el frontend y el backend, qué tecnología odiosa",1
+"Me tiene re preocupado no cumplir con la estimación de horas que le pasé al líder técnico para esta tarea",1
+"Se me borró una branch local sin querer con cambios que no había pusheado al repo remoto, qué impotencia",1
+"El módulo de autenticación con OAuth me está volviendo loco, me devuelve un token inválido sin dar detalles",1
+"Tengo que optimizar el consumo de memoria del worker en Python porque el servidor se queda sin RAM y crashea",1
+"Me cuesta un montón seguirle el ritmo a este framework nuevo, siento que la curva de aprendizaje es gigante",1
+"Qué pesadilla encontrar una fuga de memoria cuando la app de React Native empieza a andar a los tirones",1
+"Estoy trabadísimo con las expresiones regulares para validar este formulario, siempre se me escapa un caso",1
+"Me angustia no llegar a implementar los filtros de búsqueda antes de la demo con los inversores",1
+"El linter no para de tirarme advertencias de código espagueti en un archivo heredado que no quiero ni mirar",1
+"Pasé cinco horas depurando paso a paso con breakpoints para darme cuenta de que el endpoint estaba mal escrito 🤦‍♂️",1
+"Tengo que armar los pipelines de GitLab desde cero y la sintaxis del yaml me está haciendo renegar muchísimo",1
+"Siento que no avanzo nada con la tesis por culpa de este script de procesamiento que tira out of memory",1
+"Me tiene re estresado el simulador de hardware de la facultad, no me sincroniza las señales del reloj en VHDL",1
+"El cliente pide cambios en la lógica de negocio a dos días de salir a producción, un estrés tremendo",1
+"No me levanta la base de datos en Postgres porque dice que los archivos de datos están corruptos, qué susto",1
+"Cierro los ojos y sigo pensando en cómo estructurar las clases para no romper el principio de responsabilidad única",1
+"Terminé la jornada con la cabeza quemadísima de tanto código, mañana sigo pero hoy no quiero ver otra terminal",1

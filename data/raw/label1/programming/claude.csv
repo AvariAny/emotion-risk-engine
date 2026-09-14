@@ -1,1 +1,51 @@
 text,label
+"Llevo horas buscando un bug y todavía no encuentro qué lo causa.",1
+"Hoy el código no quiere compilar y ya revisé todo dos veces.",1
+"Me está costando entender este framework nuevo.",1
+"Tengo varios issues pendientes antes de la entrega.",1
+"El merge de Git me dejó un conflicto enorme 😅",1
+"No logro hacer que pasen todos los tests.",1
+"El deadline del proyecto ya está muy cerca y todavía falta bastante.",1
+"Hoy pasé más tiempo debuggeando que programando.",1
+"Estoy aprendiendo React y todavía me confundo con los hooks.",1
+"La API responde raro y no sé si el problema es mío o del servidor.",1
+"Se cayó el deploy y ahora toca revisar los logs.",1
+"Entre clases y el proyecto apenas avanzo.",1
+"Mi código funciona en local pero no en producción.",1
+"El profe dejó un proyecto bastante pesado para esta semana.",1
+"Estoy intentando optimizar una consulta SQL y está tardando demasiado.",1
+"Hoy me rechazaron un pull request por varios detalles.",1
+"Me falta documentar casi todo el proyecto.",1
+"El backend ya quedó, pero el frontend sigue dando problemas.",1
+"No entiendo por qué esa función devuelve null.",1
+"Estoy algo estresado porque todavía no termino el módulo.",1
+"Cada vez que arreglo un bug aparecen otros dos.",1
+"El proyecto en equipo va lento porque nadie responde en Git.",1
+"Me toca aprender Docker para esta entrega y apenas voy empezando.",1
+"El servidor de pruebas falló justo cuando iba a validar todo.",1
+"Ya casi termino la app, solo falta corregir unos detalles.",1
+"Estoy peleándome con los estilos en CSS desde hace rato.",1
+"Hoy el linter encontró más errores de los que esperaba.",1
+"Me preocupa no alcanzar a terminar antes de la fecha límite.",1
+"El código quedó muy largo, creo que toca refactorizar.",1
+"Estoy revisando la documentación porque me perdí con la configuración.",1
+"El profe pidió usar un patrón de diseño que apenas estoy aprendiendo.",1
+"Mi consulta a la base de datos está demasiado lenta.",1
+"Entre el trabajo y programar en las noches ya terminé cansado.",1
+"No sabía que esa librería había cambiado tanto en la nueva versión.",1
+"El QA encontró varios detalles que se me habían pasado.",1
+"Hoy hice rollback porque la última actualización rompió varias cosas.",1
+"Me cuesta entender la autenticación con JWT.",1
+"Estoy tratando de configurar CI/CD y me está dando batalla.",1
+"El emulador de Android está lentísimo hoy.",1
+"Mi aplicación consume más memoria de la que esperaba.",1
+"Qué complicado es resolver este conflicto de dependencias.",1
+"Ya llevo varias horas leyendo la documentación oficial.",1
+"El endpoint funciona a veces y otras no, qué raro.",1
+"Estoy aprendiendo TypeScript y todavía me equivoco con los tipos.",1
+"Hoy terminé mentalmente cansado después de tanto revisar código.",1
+"El proyecto universitario tiene demasiados requisitos.",1
+"Voy avanzando poco a poco, aunque estos bugs sí desesperan un poco.",1
+"Solo quiero que el deploy salga bien esta vez 🙏",1
+"Me falta escribir las pruebas unitarias y ya es tarde.",1
+"Espero cerrar todos los pendientes del sprint antes del viernes.",1
