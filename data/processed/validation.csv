@@ -1,0 +1,783 @@
+text,label,topic,label_name
+"La soledad de este deporte individual me consumió, lloro en el vestuario pensando que la muerte es la única salida",3,sports,label3
+"Metí récord personal en sentadillas profundas con 110 kg, re contento con el progreso",0,sports,label0
+"Otra vez caí en comprar impulsivamente y dejé a mi familia sin plata para la quincena, soy un asco de persona y merezco dejar de existir",3,shopping,label3
+Las preocupaciones familiares ya afectan mi concentración todos los días.,2,family,label2
+"Pusieron dispenser de agua fría nuevo en el pasillo de la planta alta, un golazo",0,school,label0
+Me cuesta seguir el ritmo en esa canción.,1,music,label1
+"Dejé de hacer mi propio pan los fines de semana, amasar me pide una energía vital que la tristeza me robó por completo",2,hobbies,label2
+"Siento una tristeza profunda de ver cómo mi familia se desarmó por completo, ya no celebramos nada y la soledad me pesa toneladas",2,family,label2
+"Pongo el volumen del auricular tan alto que me duelen los oídos, es la única forma que encuentro de callar la ansiedad que me come vivo",2,music,label2
+Estoy aprendiendo una técnica nueva y todavía me confundo.,1,hobbies,label1
+"Terminé el mes totalmente destruido anímicamente por el rol de cuidador exclusivo de mi perro enfermo, siento que el dolor me consumió",2,pets,label2
+El cachorro se asustó con el ruido de la aspiradora y se escondió abajo de la cama,0,pets,label0
+Probé hacer macarons de pistacho por primera vez y me salieron con la pollera perfecta al hornear,0,hobbies,label0
+"Voy avanzando poco a poco, aunque estos días han estado pesados.",1,university,label1
+Estoy buscando un restaurante para cenar con mi familia.,0,restaurants,label0
+Paso demasiado tiempo pensando en los gastos de las compras y ya no descanso bien.,2,shopping,label2
+A qué hora llega el micro de los abuelos para ir a esperarlos a la terminal?,0,family,label0
+Cada vez me cuesta más trabajo empezar una nueva tarea en el backlog.,2,programming,label2
+Cada vez que intento retomar contacto con mis amigos me siento bloqueado.,2,friends,label2
+Hace dos meses que el juego dejó de ser divertido y se convirtió en una carga insoportable que no puedo soltar por costumbre,2,gaming,label2
+Le compramos entre todos el regalo de bodas a la prima Sofía o cada uno lleva algo aparte?,0,family,label0
+Salí de la facu con las piernas de trapo después de estar seis horas parado en la práctica de enfermería,1,university,label1
+Qué difícil encontrar lugar para estacionarse en el centro.,1,transportation,label1
+Hoy tuve demasiados bugs en la partida.,1,gaming,label1
+Mi consulta a la base de datos está demasiado lenta.,1,programming,label1
+"Ya ni siquiera disfruto usar mis dispositivos, solo los relaciono con estrés.",2,technology,label2
+practicando japones todas las noches antes de dormir,0,hobbies,label0
+La falta de descanso por atender las necesidades de mi perro senil me tiene con mareos y visión borrosa durante todo el día,2,pets,label2
+"Perdí la custodia de mis hijos, me arrancaron el corazón y ya no tengo ningún motivo para levantarme.",3,family,label3
+"Me tiene re frustrado no poder dominar la plumilla de caligrafía, me tiembla el pulso y mancho la hoja",1,hobbies,label1
+Tengo el escritorio tapado de cajas de modelismo a medio armar y no logro concentrarme en terminar ninguna,1,hobbies,label1
+Llevo semanas postergando salir a pedalear en ruta porque el solo hecho de ponerme las calzas me produce un rechazo y un cansancio atroz,2,sports,label2
+La plataforma no me guarda el minuto exacto donde dejé el capítulo y tengo que andar adivinando dónde iba,1,movies,label1
+el cliente cambio de opinion otra vez sobre el diseño,0,work,label0
+El baterista clavó un ritmo re acelerado y el cantante casi se queda sin aire jaja,0,music,label0
+El software contable se puso pesadísimo después del último parche y cada click tarda cinco segundos en responder,1,technology,label1
+Avisen si alguno tiene inflador de aguja en el bolso para darle un poco de aire al balón,0,sports,label0
+Los despliegues me tienen con una preocupación constante desde hace meses.,2,programming,label2
+El semáforo parecía eterno esta mañana.,1,transportation,label1
+"Antes leía un libro por semana y ahora llevo meses sin poder pasar de la primera página, me siento súper vacío",2,books,label2
+Hoy mi perro jaló mucho la correa durante el paseo.,1,pets,label1
+Puse una excusa para no ser el padrino de boda de mi amigo porque el estrés que me genera fingir felicidad me estaba causando migrañas,2,friends,label2
+No quedaba el platillo que quería pedir.,1,restaurants,label1
+"Les entregué mi juventud a esa empresa de tecnología y me desechan como basura, mi vida perdió el sentido absoluto",3,technology,label3
+la biografia que estoy leyendo tiene datos re interesantes,0,books,label0
+El dueño nos recomendó un platillo que estaba buenísimo.,0,restaurants,label0
+Salgan abrigados con gorro y bufanda que la sensación térmica está en dos bajo cero,0,weather,label0
+"Mis amigos del alma se olvidaron de mi cumpleaños, ni un mensaje, entendí que mi vida no vale nada para ellos.",3,friends,label3
+le compre un juguete nuevo al cachorro y ya lo rompio,0,pets,label0
+"Soy violinista y el escenario me da pánico, ya no veo salida.",3,music,label3
+El servidor de pruebas falló justo cuando iba a validar todo.,1,programming,label1
+"Tuvimos que suspender el entrenamiento al aire libre por alerta naranja de tormentas fuertes, qué fastidio",1,weather,label1
+Mi conejito requiere tantos cuidados que siento un desgaste constante.,2,pets,label2
+"Lloro cada mañana antes de ponerme el uniforme, estoy exhausto de fingir, hoy es mi último día",3,school,label3
+Hice un pastel de zanahoria decorado con flores comestibles de pensamiento que quedaron re vistosas,0,hobbies,label0
+"Quebró la empresa y nos quedamos en la calle, perdónenme pero ya no puedo lidiar con esta vida",3,work,label3
+Compré magnesio en polvo para mejorar el agarre en la barra de dominadas,0,sports,label0
+"Los nenes dejaron todos los juguetes desparramados en la alfombra, casi me pego un tropezón",0,family,label0
+"Perdí varias seguidas, pero mañana lo intento otra vez.",1,gaming,label1
+"Tengo una sensación de fracaso permanente pegada al cuerpo, trabajar doce horas al día y no poder comprar lo básico me desarmó",2,shopping,label2
+"Chicos subí mi parte de la presentación a Canva, fíjense si les gusta cómo quedaron los gráficos",0,university,label0
+El departamento que alquilamos por Airbnb tiene un balcón con vista directa al mar increíble 🌊,0,travel,label0
+"Las deudas del restaurante me tienen sin pegar un ojo hace semanas, veo el salón vacío y la angustia me carcome el pecho todo el día",2,restaurants,label2
+"Llevo semanas sin poder dormir porque mi hijo adolescente no llega a dormir y no contesta, el miedo constante me va a enfermar",2,family,label2
+"Me da mucha bronca haber errado ese penal en el último minuto, perdimos el pase a la final por mi culpa",1,sports,label1
+"Me rechazaron el manuscrito por quinta vez, no sirvo para escribir ni para vivir, me despido de todos",3,books,label3
+Nos dividimos los gastos de la cena familiar por transferencia para que sea parejo,0,family,label0
+Mi reloj inteligente dejó de sincronizarse con el celular.,1,technology,label1
+Estoy aprendiendo un personaje nuevo y cuesta bastante.,1,gaming,label1
+La situación con mis hermanos lleva tanto tiempo que ya afecta mi rendimiento.,2,family,label2
+El subte venía hasta las manos en hora pico pero logré bajar justo en mi combinación,0,transportation,label0
+Avisame cuando estés subiendo al coche así pongo la pava para merendar apenas llegues,0,transportation,label0
+"El check-in online abre 24 horas antes del vuelo, acuérdense de seleccionar los asientos juntos",0,travel,label0
+Salgo del restaurante tan agotado que solo quiero dormir.,2,restaurants,label2
+Cada examen me deja más agotado que el anterior y esto ya lleva meses.,2,school,label2
+Tengo que terminar esta novela antes del fin de semana.,1,books,label1
+hicimos crossfit hoy y quede molido,0,sports,label0
+"Miro los paisajes por la ventanilla del tren y solo siento una tristeza gris que no se me va con nada, me siento totalmente perdido",2,travel,label2
+Estoy tan cansado de fracasar en la escuela que quisiera dormir y no despertar.,3,school,label3
+Tengo que juntar firmas para el proyecto de campo de psicología y la gente no me da ni cinco de pelota,1,university,label1
+"Soy corrector de textos y ya no veo errores, solo veo mi vida sin sentido.",3,books,label3
+A qué hora juegan el clásico el domingo? Para ir reservando mesa en el bar con pantalla gigante,0,sports,label0
+"El calor de 45 grados me tiene delirando y con una angustia mortal, ya no aguanto un segundo más.",3,weather,label3
+Mi cabeza está tan saturada que no puedo seguir los diálogos con atención.,2,movies,label2
+Ya ni siquiera puedo disfrutar el club de lectura porque no logro terminar los capítulos.,2,books,label2
+El perro no quiere tomar el jarabe para la tos y me escupe todo en la remera cada vez que intento con la jeringa,1,pets,label1
+"Hace meses que el clima severo no me da tregua, vivo en estado de alerta constante y esa tensión me provocó contracturas que no me dejan mover el cuello",2,weather,label2
+Ya casi no disfruto aprender porque siempre estoy preocupado por lo siguiente.,2,school,label2
+mi hermano y yo armamos el mueble nuevo entre los dos,0,family,label0
+Siento una tristeza gris y pesada que me acompaña a todos lados desde que le diagnosticaron la cardiopatía a mi gato,2,pets,label2
+"No me reconocen la garantía de la pava eléctrica diciendo que el problema es por mal uso mío, qué impotencia",1,shopping,label1
+"Llevo tres años intentando volver a la selección de natación y sigo estancado, ya no tiene sentido continuar con esta vida",3,sports,label3
+la juntada de ayer se extendio mas de lo pensado,0,friends,label0
+El veterinario nos cambió el alimento y ahora toca adaptarlo.,1,pets,label1
+Todo este tiempo con tan poco sol me ha dejado sin motivación para mis pendientes.,2,weather,label2
+Siento que el ritmo escolar me pasó por encima y que ya no tengo fuerzas para remontar las materias bajas,2,school,label2
+armando setlist para el show del sabado,0,music,label0
+"Ni hablar con mi guild ayuda, siento que ya no vale la pena seguir.",3,gaming,label3
+El reporte de lectura es para mañana y apenas voy a la mitad.,1,books,label1
+"Ayer puse una película infantil para intentar sentir algo de paz, pero terminé con una crisis de ansiedad pensando en lo destrozada que está mi rutina",2,movies,label2
+"El cansancio crónico me tiene mal, me duermo escuchando podcasts porque la música me exige una energía emocional que ya no tengo",2,music,label2
+Hoy todos hablaban al mismo tiempo en la comida familiar.,1,family,label1
+Cada vez me cuesta más atender clientes con paciencia porque estoy completamente agotado.,2,work,label2
+pase toda la mañana en llamadas con distintos clientes,0,work,label0
+Me toma muchísimo esfuerzo empezar cualquier actividad recreativa.,2,hobbies,label2
+"Hice galletitas de avena y chispas de chocolate para la merienda de los chicos, volaron en diez minutos",0,cooking,label0
+Las fallas del sistema son tan frecuentes que ya me cuesta mantener la calma.,2,technology,label2
+"Soy escritor y el bloqueo me está matando, ojalá pudiera desaparecer.",3,books,label3
+"Abandoné el taller de costura, no sirvo para crear nada bonito y la verdad prefiero dejar de existir.",3,hobbies,label3
+Qué difícil fue encontrar estacionamiento cerca del hotel.,1,travel,label1
+"Trabajo en una librería y ver a la gente feliz comprando me destruye, mejor desaparezco.",3,books,label3
+Mi canal de streaming fracasó y siento que todos estarían mejor sin mí.,3,gaming,label3
+"El mouse inalámbrico me pega tirones en el cursor y ya le cambié las pilas dos veces, qué fastidio",1,technology,label1
+"La acuarela ya no me consuela, solo quiero desaparecer.",3,hobbies,label3
+Olvidé parte de la letra durante el ensayo.,1,music,label1
+el profe de historia del arte nos dejo elegir el tema,0,university,label0
+El burnout como desarrollador me dejó sin ganas de existir.,3,programming,label3
+"Qué estrés tener que rendir dos exámenes pesados el mismo día, voy a terminar con la cabeza frita",1,school,label1
+me regalaron una coleccion completa de un autor que me encanta,0,books,label0
+Hoy gasté más tiempo moviéndome entre un lugar y otro que disfrutando el paseo.,1,travel,label1
+"Antes disfrutaba usar la computadora, ahora solo me provoca cansancio.",2,technology,label2
+"llegamos todos tarde a la previa, un caos total",0,friends,label0
+"Estoy cansado de decepcionar a mi equipo, estarían mejor sin mí.",3,gaming,label3
+"La sala de cine tenía el aire acondicionado apagado y era un horno sofocante, no pude disfrutar nada la película 🥵",1,movies,label1
+"La poesía me mantenía a flote pero ya me hundí por completo, les escribo para despedirme",3,books,label3
+"Entreno artes marciales desde hace años, pero estos últimos meses todo se siente demasiado pesado.",2,sports,label2
+El calentamiento ya me dejó sin aire 😂,1,sports,label1
+"Hace semanas que compongo letras súper oscuras y deprimentes, es lo único que me sale escribir y me da miedo estar hundiéndome tanto",2,music,label2
+"Antes disfrutaba mi empleo, ahora solo pienso en cómo sobrevivir la jornada.",2,work,label2
+Me siento agotado de depender de aplicaciones de transporte que siempre cancelan.,2,transportation,label2
+Estoy aprendiendo a cuidar una tortuga y todavía tengo dudas.,1,pets,label1
+Estoy tan cansado mentalmente que hasta leer unas páginas me cuesta.,2,school,label2
+"Compré una lámpara de pie con dimmer para el rincón de lectura del living, alumbra joya",0,shopping,label0
+Hoy salí bien cansado de la escuela por tantas clases.,1,school,label1
+El mesero confundió nuestras bebidas.,1,restaurants,label1
+"Llevo semanas poniendo playlists para distraerme, pero sigo igual de agotado.",2,music,label2
+La masa quedó demasiado pegajosa.,1,cooking,label1
+"La lluvia no para desde la madrugada y el agua ya está al límite de entrar por la puerta del patio, qué estrés",1,weather,label1
+"El libro es bueno, pero requiere mucha atención.",1,books,label1
+"La soledad que siento en este país nuevo me está quebrando, no logro adaptarme al idioma y lloro todas las noches en la pieza",2,travel,label2
+"Cada día nublado me pesa más en el pecho, ya no quiero abrir los ojos en este mundo tan frío.",3,weather,label3
+Se me rompió el cierre de la mochila de tanto peso que cargo con los manuales,0,school,label0
+"Estoy intentando cocinar más en casa, aunque aún me organizo.",1,cooking,label1
+Llevo semanas atorado con el mismo módulo y ya me cuesta pensar con claridad.,2,programming,label2
+"El distanciamiento con mi mejor amiga me pegó como un duelo, ando como un zombie por la casa y lloro por cualquier cosa",2,friends,label2
+"Me mareé un poco en la última serie de peso muerto por aguantar el aire, tengo que controlar la respiración",1,sports,label1
+"Las llamadas de cobranza por la tarjeta departamental me tienen al borde del colapso, siento que mi única escapatoria es morirme",3,shopping,label3
+"Reprobé todas las materias del semestre, mi familia se va a decepcionar tanto que prefiero ya no despertar mañana",3,university,label3
+"Mi abuela me enseñó a cocinar con tanto amor, desde que se fue ya no puedo entrar a la cocina sin querer matarme",3,cooking,label3
+Extrañar mi rutina todos los días ya está afectando cómo rindo.,2,travel,label2
+Llevo semanas dejando la comida para después porque no encuentro fuerzas para cocinar.,2,cooking,label2
+el tren se atraso quince minutos hoy,0,transportation,label0
+el clima cambio de golpe pero seguimos con el plan,0,travel,label0
+el restaurante japones tiene un ambiente muy tranquilo,0,restaurants,label0
+Mi ex me dedicaba canciones y ahora ya no quiero estar aquí.,3,music,label3
+Alguien probó los transformers de Hugging Face para clasificación de texto en español? Andan finos,0,programming,label0
+"Hace meses que vivo contracturado y con migrañas por la tensión de las giras, tocar cada noche se convirtió en una carga que me drena el alma",2,music,label2
+Me da pánico que me despidan por lo lento que estoy trabajando pero por más que lo intento el cuerpo no me responde,2,work,label2
+Paso tantas horas en el restaurante que siento un cansancio constante.,2,restaurants,label2
+Che pasen el código de amigo de Steam así los agrego y compartimos la biblioteca familiar,0,gaming,label0
+Tengo el brazo re acalambrado de spamear combos en Street Fighter y no me sale el timing del parry ni de casualidad,1,gaming,label1
+probando hugging face para el proyecto de nlp,0,programming,label0
+Pasame el payload del endpoint de registro para probarlo en Postman a ver qué código devuelve,0,programming,label0
+el conejo se comio todas las zanahorias que le puse,0,pets,label0
+"Acompañar a mi gato en su enfermedad terminal me secó por dentro, ya no quiero existir en un mundo donde él no esté",3,pets,label3
+Mi vieja no para de hacerme preguntas apenas cruzo la puerta y yo solo quiero tirarme en la cama a descansar,1,family,label1
+Me dio mucha vergüenza servirle el pastel de papas a mis suegros y que el puré haya quedado lleno de grumos,1,cooking,label1
+"La presión de la alta cocina me quitó hasta el apetito por vivir, les dejo mi delantal como despedida",3,cooking,label3
+"Enterré a mi compañero más fiel esta mañana, dejo todo arreglado porque esta noche me despido definitivamente",3,pets,label3
+Mi pedido sigue sin llegar y ya pasó la fecha estimada.,1,shopping,label1
+"Las guardias de ciberseguridad me destruyeron por dentro, ya no quiero proteger la red de nadie ni seguir con mi vida",3,technology,label3
+Me aislé de mis amigos porque me da vergüenza profunda admitir que no tengo ni para pagar mi parte de la comida cuando salimos,2,shopping,label2
+"Llevo meses recibiendo odio y amenazas en mis streams, no aguanto más y hoy decido apagar todo para siempre",3,technology,label3
+"Renuncié hoy porque la ansiedad me estaba matando, pero ahora me doy cuenta de que la vida ya no tiene sentido para mí",3,work,label3
+Pasame el itinerario de los museos para ver si nos da el tiempo de recorrer el museo de bellas artes hoy,0,travel,label0
+"Me cuesta un montón coordinar los pasos de la entrada en bandeja en básquet, me siento re torpe 🤦‍♂️",1,sports,label1
+Hoy me dolieron un poco las piernas después del ejercicio.,1,sports,label1
+"Les di cinco años armando la infraestructura y me reemplazan por un software, ya nada tiene sentido y me quiero quitar la vida",3,technology,label3
+"Este frío tan largo me tiene emocionalmente agotado, ya no sé cuándo voy a recuperar energía.",2,weather,label2
+"Ayer cometí errores graves en el trabajo por estar pendiente de las cámaras para ver si mi perro comía algo, no puedo más",2,pets,label2
+Le pedí la cuenta al mozo tres veces y sigo clavado acá esperando para poder irme a mi casa 😩,1,restaurants,label1
+El olor a fritura del salón era tan denso que me quedó impregnado en la campera y en el pelo para todo el día,1,restaurants,label1
+Las reuniones para ver películas con mis amigos ya hasta las evito porque no las disfruto.,2,movies,label2
+"se me rompio el cable del cargador, tengo que comprar otro",0,technology,label0
+pedi un remis porque estaba lloviendo mucho,0,transportation,label0
+"Hace dos meses que vivo con miedo permanente al desenlace, esa espera angustiante me tiene el sistema nervioso completamente destruido",2,pets,label2
+la hamburgueseria nueva tiene combos bastante buenos,0,restaurants,label0
+Me siento agotado incluso antes de empezar a cocinar.,2,cooking,label2
+Mi rendimiento bajó mucho porque llevo semanas sintiéndome completamente saturado.,2,work,label2
+"Llevo meses sin poder conseguir trabajo en tecnología por mi edad, soy descartable y lo mejor es no seguir",3,technology,label3
+Mi papá quiere arreglar toda la casa este fin de semana y ya hizo planes para todos.,1,family,label1
+Mi amigo anda pasando un momento re complicado con la familia y me angustia no saber qué decirle para ayudarlo,1,friends,label1
+Llevo las pecheras fluorescentes para diferenciar los equipos en el picadito,0,sports,label0
+"Terminé el turno de la tarde liquidado por el calor sofocante del asfalto, necesito que refresque ya",1,weather,label1
+Vengo arrastrando un sueño bárbaro y cada vez que intento leer dos renglones en la cama se me caen los párpados,1,books,label1
+"Siento que fracasé como persona por gastar así, ya no quiero continuar.",3,shopping,label3
+Hoy sentí que las clases se hicieron eternas.,1,university,label1
+Últimamente preparar cualquier platillo me deja emocionalmente drenado.,2,cooking,label2
+Mi hermano puso la música muy fuerte otra vez 😂,1,family,label1
+nos toca presentacion oral la proxima semana en historia,0,university,label0
+"No puedo parar de reprocharme cada centavo que gasto, la obsesión con los precios me quitó la paz y me deja mentalmente exhausto",2,shopping,label2
+Perdí mi proyecto de cortometraje y con él mis ganas de vivir.,3,movies,label3
+"Llevo semanas sintiendo una apatía enorme, antes me apasionaba la literatura y ahora leer un capítulo me parece un esfuerzo titánico",2,university,label2
+Llevo semanas sufriendo acoso constante en mis redes sociales por gente anónima y tengo pánico de revisar el teléfono al despertar 😔,2,technology,label2
+Hoy discutí un poco con mi hermano por una tontería.,1,family,label1
+Se me quemaron tres tostadas seguidas por colgarme mirando videos en el celular 🤦‍♂️,0,cooking,label0
+La tormenta me dejó sin techo y sin motivos para continuar.,3,weather,label3
+"Estoy faltando al trabajo seguido por cuidar a mi gato enfermo, siento que la culpa y la incertidumbre me están quebrando la cabeza",2,pets,label2
+Cada commit fallido me convence más de que ya no tiene sentido continuar.,3,programming,label3
+"Hace semanas que funciono por pura inercia, no tengo motivación para nada y hasta vestirme para salir es un calvario",2,work,label2
+"el restaurante estaba lleno, tuvimos que esperar un rato para la mesa",0,restaurants,label0
+Gasté una fortuna en una cama ortopédica para el perro y prefiere dormir en el felpudo duro de entrada,0,pets,label0
+"Regalé mi edición de colección a mi mejor amigo, es mi forma de despedirme porque ya no aguanto más",3,books,label3
+Configuré los botones traseros del control pro para saltar y recargar sin soltar los analógicos,0,gaming,label0
+"Las tormentas de todos los días me tienen sumido en un bajón terrible, miro por la ventana y siento que mi vida está igual de estancada y oscura",2,weather,label2
+probando distintos condimentos para la carne,0,cooking,label0
+Las amistades que más quería se sienten cada vez más lejanas y eso me desgasta.,2,friends,label2
+Me frustra no disfrutar algo que siempre había sido importante para mí.,2,movies,label2
+"Mi amigo me dijo que no soporta estar conmigo, ya no merezco vivir.",3,friends,label3
+Me pasé toda la tarde calibrando la mira del telescopio y cuando terminé se nubló el cielo por completo,1,hobbies,label1
+Estoy tan agotado por este clima que hasta conversar con la gente me cuesta.,2,weather,label2
+Llevo mucho tiempo sin ganas de preparar algo elaborado aunque me guste comer bien.,2,cooking,label2
+"Me siento totalmente desconectada de la realidad desde que perdí a mi caballo, el dolor me superó y voy a dejar de existir",3,pets,label3
+"Trabajar 14 horas al día para no llegar a fin de mes me vació por dentro, ya no quiero estar aquí",3,work,label3
+Me cuesta mucho mantener la concentración después de pasar tanto tiempo en el tráfico.,2,transportation,label2
+Che alguien tiene un cargador de iPhone con ficha tipo C para prestarme un rato?,0,technology,label0
+La culpa de no rendir lo que el sponsor espera de mí me tiene con insomnio crónico y una tristeza pesada que no se va,2,sports,label2
+"Me siento completamente derrotado por la programación, ojalá todo terminara.",3,programming,label3
+te espero en la puerta del cine a las ocho,0,friends,label0
+"Perdí mi vuelo, mi dinero y mis papeles, prefiero desaparecer.",3,travel,label3
+"Tengo la guitarra guardada en su funda hace tres meses, verla en la esquina de la pieza me da una tristeza que me quita el hambre",2,music,label2
+"El entrenamiento de hoy me liquidó por completo, no podía ni levantar las piernas en las pasadas finales",1,sports,label1
+Cada mañana me pesa muchísimo ir a la escuela y eso ya lleva bastante tiempo.,2,school,label2
+Pedimos entrada antes del plato fuerte.,0,restaurants,label0
+Me da pena porque todos comentan los libros y yo sigo atorado en las primeras páginas.,2,books,label2
+"Me cerraron el local, perdí todo mi esfuerzo de años y ya no me queda nada por lo que vivir",3,work,label3
+Alguien probó el mod gráfico que le metieron al GTA San Andreas? Parece un juego de esta generación,0,gaming,label0
+Me armé un combo con gaseosa grande y golosinas para no levantarme en toda la función,0,movies,label0
+"El estrés crónico me dejó con déficit de atención, leo dos renglones y me distraigo pensando en cómo voy a pagar las deudas",2,books,label2
+pedi un taxi porque perdi el ultimo tren,0,transportation,label0
+Cada novela que leo me recuerda que mi historia no tiene final feliz.,3,books,label3
+"cancele los planes de esta tarde, surgio algo",0,friends,label0
+El estrés del restaurante ya está afectando mi concentración.,2,restaurants,label2
+"nos toca presentacion grupal mañana, ya casi terminamos las diapositivas",0,school,label0
+Después del incidente en producción siento que desaparecer sería un alivio.,3,programming,label3
+Me siento emocionalmente desgastado por la escuela desde hace varias semanas.,2,school,label2
+"Dejé los ensayos porque no puedo con esta ansiedad, prefiero desaparecer.",3,music,label3
+Desde hace meses las amistades se sienten como un esfuerzo enorme para mí.,2,friends,label2
+Nos sentamos en la terraza porque hacía buen clima.,0,restaurants,label0
+"Pedí comida por la app para cenar rápido y el repartidor se fue para cualquier lado con la moto, llegó todo helado",1,shopping,label1
+"Le ganamos la serie semifinal al rival de siempre en básquet, directos a la final",0,sports,label0
+horneando galletas para llevar a la juntada,0,cooking,label0
+"Todos avanzan y aprenden nuevas tecnologías menos yo, me quedé obsoleto y prefiero dejar este mundo",3,technology,label3
+"Me da mucha ansiedad pensar en el control de seguridad del aeropuerto internacional, siempre me retienen cosas",1,travel,label1
+buscando estacionamiento cerca de la terminal de micros,0,transportation,label0
+"Renuncié a la carrera de letras, soy un inútil y sinceramente creo que todos estarían mejor sin mí",3,books,label3
+Tengo una ampolla gigante en el talón por estrenar botines nuevos sin ablandarlos antes,0,sports,label0
+El audio venía desfasado como por un segundo respecto a la imagen y me volvió completamente loco toda la función,1,movies,label1
+Ya casi no uso la cocina porque me siento mentalmente agotado.,2,cooking,label2
+No me levó la masa de las medialunas porque la levadura estaba vencida en la heladera 🤦,0,cooking,label0
+Llevo tanto tiempo conectado que incluso en mis descansos sigo sintiéndome mentalmente agotado.,2,technology,label2
+"Me dan temblores en las manos cuando me siento a estudiar los manuales, la ansiedad me tiene el sistema nervioso reventado",2,books,label2
+"Nos repartimos las tareas de la casa, pero igual se siente pesado.",1,family,label1
+"Las películas de terror ya no me asustan, lo que me asusta es seguir viviendo.",3,movies,label3
+Cada transmisión vacía me hace sentir que ya no tiene sentido seguir.,3,gaming,label3
+probando la receta de mi mama para el flan,0,cooking,label0
+"Qué golazo haber comprado el cargador rápido de 67 watts, me llena la batería en media hora",0,technology,label0
+"Estoy atrapada en este aeropuerto sin poder volver, ya no quiero vivir.",3,travel,label3
+El postre de ese lugar está delicioso 😋,0,restaurants,label0
+Soy estudiante de cocina y la presión me tiene sin ganas de seguir.,3,cooking,label3
+"El sonido de las notificaciones de Teams me detona una taquicardia inmediata, vivo con el cuerpo tenso y angustiado todo el día",2,technology,label2
+Me da mucha bronca que publiquen fotos de stock perfectas y cuando te llega el producto parece de cotillón barato,1,shopping,label1
+"Mi tortuga me acompañó toda mi infancia y acaba de morir, siento que se fue mi niñez y no tengo fuerzas para seguir adelante",3,pets,label3
+Ni siquiera puedo abrir los libros sin sentir que ya no tiene sentido seguir.,3,school,label3
+me quedo en la biblioteca toda la tarde estudiando,0,university,label0
+"Llegué a casa liquidado mentalmente, no tengo energía ni para prepararme la cena",1,work,label1
+Voy a reservar porque dicen que se llena los fines de semana.,0,restaurants,label0
+Con este viento casi se me vuela el paraguas.,1,weather,label1
+Hace meses que el ritmo del restaurante me está consumiendo poco a poco.,2,restaurants,label2
+Me compré un juego de toallones de color mostaza para renovar los del baño principal,0,shopping,label0
+Mi computadora tardó siglos en encender hoy.,1,technology,label1
+La talla correcta ya no estaba disponible.,1,shopping,label1
+el chef nos explico como preparaba el plato principal,0,restaurants,label0
+"El tratamiento renal de mi gata me tiene viviendo con una angustia que no se me quita ni un segundo, no logro concentrarme en nada",2,pets,label2
+"Perdí a mi socio y el restaurante, ya no le veo sentido a seguir viviendo.",3,restaurants,label3
+"Trabajé diez años como proyectorista y me despidieron, perdí mi refugio y ya no me quedan ganas de estar acá.",3,movies,label3
+escribiendo tests unitarios para el modulo de pagos,0,programming,label0
+"La humedad constante me tiene postrado y deprimido, esta vida de sufrimiento ya no tiene sentido para mí.",3,weather,label3
+Ni los descansos me ayudan a recuperar energía para seguir con la universidad.,2,university,label2
+"Ya no sé cómo recuperar el ritmo en la escuela, llevo mucho tiempo sintiéndome así.",2,school,label2
+No entiendo por qué bajaron tanto mi rango.,1,gaming,label1
+"Quemo todo lo que intento preparar, soy un inútil que no sirve ni para alimentarse, me quiero morir",3,cooking,label3
+me pidieron cubrir un turno extra el sabado,0,work,label0
+Pensé que el frente frío ya había pasado.,1,weather,label1
+Llevo semanas evitando pedir ayuda a los seniors por el pánico atroz a que se den cuenta de lo poco que sé en realidad,2,programming,label2
+Ayer intenté retomar el tejido a crochet para no pensar tanto y a los cinco minutos sentí que me faltaba el aire,2,hobbies,label2
+El estuche rígido de la viola pesa un montón pero te salva de cualquier golpe en el bondi,0,music,label0
+despues de la rutina de hoy no siento los brazos,0,sports,label0
+"Sentí que sobraba un poco en la juntada de anoche, todos hablaban de temas de su trabajo y yo quedé re pintado",1,friends,label1
+conociendo un pueblito que no estaba en la guia turistica,0,travel,label0
+Llevo dos horas tratando de recuperar la contraseña del correo y el mensaje con el código de verificación nunca llega,1,technology,label1
+Desde que acepté este trabajo con tantos viajes mi rendimiento ha bajado muchísimo.,2,travel,label2
+"Quería hacer una caminata más larga, pero empezó a llover.",1,hobbies,label1
+"Tuve que emigrar y dejar a mi mamá enferma, ya no merezco seguir.",3,travel,label3
+Las historias ya no logran atraparme y eso me tiene preocupado desde hace tiempo.,2,movies,label2
+Siento un desgano tan profundo que ni siquiera tengo fuerzas para actualizar mis herramientas de trabajo ni el sistema operativo,2,programming,label2
+"Perdí todo por comprar sin pensar, ya no merezco seguir viviendo.",3,shopping,label3
+Hoy cometí un error en una factura y me dio mucha pena.,1,work,label1
+la bici se me pincho justo a mitad de camino,0,transportation,label0
+"Sacrifiqué a mi gatita hoy porque no podía pagar la operación, soy un monstruo y no merezco vivir un día más",3,pets,label3
+Se siente un frío raro para esta época del año.,1,weather,label1
+"Dejé de leer porque cada historia me recordaba lo fracasada que soy, hoy voy a hacer que ese dolor pare definitivamente",3,books,label3
+Mi mascota era la única que me esperaba en casa y ahora solo quiero desaparecer.,3,pets,label3
+"Cocinar para mi familia era sagrado y ahora ni eso me calma, ya no quiero estar.",3,restaurants,label3
+"El hostel que reservé es re ruidoso, tienen música abajo en el bar y no se puede descansar nada 😩",1,travel,label1
+"Siento que paso más tiempo en el transporte público que con mi familia, esta vida no vale la pena y me despido",3,transportation,label3
+"la actualizacion de hoy es gigante, hay que descargar como 20gb",0,gaming,label0
+Cada noche escucho a mis papás pelear y pienso en no despertar.,3,family,label3
+Nos quedamos cantando a los gritos en el auto con las ventanillas bajas toda la vuelta,0,music,label0
+"Me usaron como el payaso del grupo y cuando necesité apoyo todos se borraron, adiós para siempre.",3,friends,label3
+"Le pasé el presupuesto de mano de obra al cliente, quedó en confirmar para el lunes",0,work,label0
+"Mi mascota era mi única familia y ahora solo queda un vacío enorme, no veo salida.",3,pets,label3
+¿Prefieres comer adentro o en la terraza?,0,restaurants,label0
+"Gasté lo del alquiler en ropa para llenar este vacío y ahora estoy en la calle, ojalá no despierte mañana",3,shopping,label3
+Mi compañero faltó y nos repartieron todo el trabajo.,1,work,label1
+El coche derrapó justo en la última curva 😅,1,gaming,label1
+"Ni jugar me saca este vacío enorme del pecho, siento que todos estarían mucho mejor si yo dejara de existir hoy",3,gaming,label3
+"compre un vinilo viejo en la feria, quedo genial en la coleccion",0,music,label0
+"tengo cursada intensiva esta semana, va a ser larga",0,university,label0
+Después de perder todo por las inundaciones siento que todos estarían mejor sin mí.,3,weather,label3
+"Siento que me esfuerzo al máximo pero mi rendimiento sigue cayendo, la impotencia me come la cabeza",2,school,label2
+la carta cambio bastante desde la ultima vez que vinimos,0,restaurants,label0
+Ese restaurante era nuestro lugar favorito y ahora solo me recuerda que ya no quiero estar aquí.,3,restaurants,label3
+Compré lana carísima para un suéter y a mitad de camino me di cuenta de que no me alcanza la cantidad,1,hobbies,label1
+Últimamente abandono todos los libros aunque realmente me interesan.,2,books,label2
+Estuve dos horas dando vueltas buscando un regalo lindo para el baby shower de mi prima,0,shopping,label0
+Me tiene preocupado no recuperar la masa muscular que perdí las semanas que estuve engripado,1,sports,label1
+arrancamos la pretemporada la semana que viene,0,sports,label0
+preparando salsa casera para acompañar la pasta,0,cooking,label0
+Llevo semanas con las pupilas dilatadas y mareos constantes de tantas horas de videollamadas interminables que no resuelven nada,2,technology,label2
+"Llevo meses encerrado en mi cuarto fingiendo que avanzo con la monografía, soy un fraude y merezco desaparecer",3,university,label3
+Cada vez que intento hacer un maratón termino apagando la televisión antes de tiempo.,2,movies,label2
+"Mis amigos de toda la vida me dejaron de hablar de la nada, siento que mi existencia no le importa a nadie.",3,friends,label3
+El cable del micrófono hace falso contacto a cada rato y mete un chasquido re molesto en los parlantes,1,music,label1
+"Cuidar a mi mamá enferma me vació por completo, ya no tengo fuerzas para seguir viva.",3,family,label3
+"Qué lindo ambiente que había en la tribuna anoche, cantamos todo el partido sin parar",0,sports,label0
+Hoy hubo examen sorpresa y sí me agarró desprevenido.,1,school,label1
+Me quedé solo en casa viendo películas toda la cuarentena y ya no quiero despertar.,3,movies,label3
+me olvide el cargador en el hotel anterior,0,travel,label0
+El autor construye el mundo fantástico con un nivel de detalle en la mitología que impresiona,0,books,label0
+Ni mis videojuegos favoritos logran hacerme desconectar últimamente.,2,hobbies,label2
+"Se me fue toda la pasión por la informática, ahora solo siento un vacío enorme y ganas de apagar mi vida para siempre",3,technology,label3
+Entre videollamadas casi ni tuve tiempo para trabajar en lo importante.,1,work,label1
+"Me da mucha culpa ver mi equipo de senderismo juntando polvo, sé que salir me haría bien pero la angustia no me deja cruzar la puerta",2,hobbies,label2
+Hoy la natación me dejó completamente cansado.,1,sports,label1
+Me llegó la notificación del correo diciendo que el paquete está en camino a domicilio,0,shopping,label0
+Estoy revisando apuntes porque no quiero llegar en blanco al examen.,1,university,label1
+"Los amigos que creía tener solo me usaban, ya no quiero estar aquí.",3,friends,label3
+Reviso mi saldo varias veces al día desde hace semanas y eso me tiene agotado.,2,shopping,label2
+tengo entrevista con un candidato nuevo a las 10,0,work,label0
+"El laboratorio estuvo interesante, pero terminé agotado.",1,school,label1
+El frío húmedo se me mete en los huesos y el dolor crónico me tiene tan deprimida que hace semanas no logro concentrarme en la oficina,2,weather,label2
+"El orientador me dijo que no tengo futuro, y tiene razón, no valgo nada y prefiero estar muerto",3,school,label3
+Cada salida con mis amigos requiere un esfuerzo enorme de mi parte.,2,friends,label2
+Alguien me presta liquid paper dos segundos? Me equivoqué de número en la hoja de examen,0,university,label0
+Me atrasé con la lectura del club de lectura.,1,books,label1
+Me siento agotado de aprender herramientas nuevas una tras otra sin descanso.,2,technology,label2
+El mesero se veía muy ocupado y tardó en atendernos.,1,restaurants,label1
+"El coleccionismo ya no me llena, solo quiero que todo acabe.",3,hobbies,label3
+Me da mucha bronca que me emparejen con gente nivel 10 cuando yo juego contra veteranos de diez años,1,gaming,label1
+"Ya no logro desconectarme cuando termina mi turno, sigo pensando en pendientes toda la noche.",2,work,label2
+Siento que no me queda tiempo para hacer nada de lo que me gusta por estar clavado con las guías,1,school,label1
+el bondi paso lleno y tuve que esperar el siguiente,0,transportation,label0
+Me desespera estar con los chicos con hambre en una mesa y que tarden una eternidad en traer aunque sea la panera,1,restaurants,label1
+Estoy tratando de configurar CI/CD y me está dando batalla.,1,programming,label1
+"Avisale a la abuela que el domingo al mediodía comemos en su casa, yo llevo los ravioles",0,family,label0
+"tengo clase de pilates esta tarde, buena forma de relajar",0,sports,label0
+Escucho mis playlists favoritas y sigo con la misma sensación de cansancio.,2,music,label2
+Llevo tres días encerrado viendo películas de madrugada para no pensar en que me quiero morir.,3,movies,label3
+organizando el regalo sorpresa para el cumple de mama,0,family,label0
+"El estrés crónico por los finales me dejó sin defensas, vivo engripada y con contracturas que me paralizan el cuello",2,university,label2
+"Mi papá me prestó el carro y lo destrocé en la ruta, le arruiné su medio de trabajo y no merezco vivir con esta culpa",3,transportation,label3
+"Se me rompió la línea de pesca justo cuando sentí un tirón fuerte en el arroyo, qué mala suerte lpm",1,hobbies,label1
+El cachorro intentó subirse al sillón pegando un salto torpe y rebotó contra el almohadón 😂,0,pets,label0
+Me preocupa un poco el examen de cálculo.,1,university,label1
+"Llevo dos meses aguantando ataques de pánico en medio del salón, me escondo detrás de la cafetera para que no me vean temblar",2,restaurants,label2
+"Las deudas de las tarjetas por comprar compulsivamente me arruinaron la vida, ya tomé la decisión de irme de este mundo",3,shopping,label3
+Mi productividad cayó porque ya no logro mantener la concentración.,2,programming,label2
+Hicimos un guiso de fideos moñito con carne picada y morrón que nos salvó el frío de hoy,0,cooking,label0
+Cada día llego a casa sin ganas de hablar con nadie por lo agotado que termino.,2,work,label2
+"Llevo meses viendo cómo la sequía seca los campos, el estrés de no saber cómo vamos a comer me tiene con migrañas diarias que me impiden trabajar",2,weather,label2
+"El calor de los hornos ya no se compara con el infierno que tengo en la cabeza, hoy termino con mi sufrimiento.",3,restaurants,label3
+Encontramos estacionamiento justo frente al restaurante.,0,restaurants,label0
+armando el itinerario para los diez dias de viaje,0,travel,label0
+"El maltrato constante de mi supervisor me tiene consumido, llego a casa mudo y no tengo fuerzas ni para cenar con mi familia",2,work,label2
+Me cuesta muchísimo concentrarme después de tantas horas viendo pantallas.,2,technology,label2
+Entre los trabajos y los apuntes ya traigo la mochila llena.,1,school,label1
+Mi compa de la facu me dejó pagando con la parte del apunte que teníamos que resumir juntos para mañana 🤦‍♂️,1,friends,label1
+"Mi equipo de montañismo está guardado, me rindo con las cumbres y con la vida, ojalá no abra los ojos mañana.",3,hobbies,label3
+Avisen si alguno necesita ayuda con los tickets de soporte antes de que termine el turno,0,work,label0
+"La presión de la cocina me tiene sin dormir, ojalá no despertara mañana.",3,cooking,label3
+"Comer en restaurantes de lujo me hace sentir más miserable, ya no quiero estar aquí.",3,restaurants,label3
+Llevo meses entrenando y siento que cada sesión me deja más agotado que la anterior.,2,sports,label2
+Anoté a mi nena en clases de violín en el conservatorio municipal del barrio,0,music,label0
+"Este invierno se me está haciendo eterno, todos los días me siento igual de agotado.",2,weather,label2
+"Pensé que me acostumbraría a moverme tanto, pero cada mes se hace más difícil.",2,travel,label2
+Desde hace meses ensayo por obligación y ya casi no disfruto hacerlo.,2,music,label2
+Mi confianza al programar ha bajado porque últimamente todo me cuesta demasiado.,2,programming,label2
+Ya ni los fines de semana logro recuperar fuerzas del desgaste del trabajo.,2,work,label2
+Desde hace semanas cualquier turno se me hace eterno y pesado.,2,restaurants,label2
+Vieron que cambiaron el horario de salida para los que cursan contraturno los miércoles?,0,school,label0
+El calor excesivo ya me afecta hasta para dormir y rendir durante el día.,2,weather,label2
+"Hace un mes que no pinto miniaturas, el pulso me falla por los nervios constantes y la frustración me tira a la cama todo el finde",2,hobbies,label2
+"Esta entrega de la materia de compiladores me tiene al borde del colapso, el parser no reconoce los tokens",1,programming,label1
+"hoy toca spinning, ya extraño mis piernas de antemano",0,sports,label0
+Cada sesión en el gimnasio me cuesta más que la anterior y ya lleva bastante tiempo así.,2,sports,label2
+mi gato se durmio arriba del teclado otra vez,0,pets,label0
+"Terminé de leer mi saga favorita y me di cuenta de que mi propia historia no tiene sentido, ojalá no despierte mañana",3,books,label3
+"Me aterra pensar que voy a pasar años atrapado en este puesto de comida rápida, la desesperanza me come la cabeza mientras envuelvo hamburguesas",2,restaurants,label2
+mi hamster escondio comida por toda la jaula otra vez,0,pets,label0
+"El ritmo narrativo de esta biografía es pesadísimo, se pasa cincuenta páginas hablando de la infancia del tipo sin avanzar",1,books,label1
+compre una planta nueva para decorar el balcon,0,shopping,label0
+Hace meses cocinar se siente como una obligación enorme.,2,cooking,label2
+Dicen que entra un frente frío del sur a la madrugada y baja diez grados de golpe,0,weather,label0
+armamos equipo para el picado de esta tarde,0,friends,label0
+Me despertó un rayo fuertísimo a las cuatro de la mañana y me costó un montón volver a conciliar el sueño,1,weather,label1
+Me cuesta un montón adaptarme a las herramientas nuevas que implementaron en la empresa,1,work,label1
+"Los libros eran mi única compañía y ahora ni eso me calma, ya no quiero estar.",3,books,label3
+"Hoy hubo un pequeño desacuerdo en el grupo, nada grave.",1,friends,label1
+el equipo de basquet perdio por poco anoche,0,sports,label0
+Me traje una cafetera express usada que estaba impecable en una feria de garage del barrio,0,shopping,label0
+Cada comida representa otro esfuerzo que ya no sé de dónde sacar.,2,cooking,label2
+Hoy casi olvido entregar mi cuaderno.,1,school,label1
+"El huracán se llevó mi casa y con ella lo poco que me quedaba de ganas de vivir, adiós a todos.",3,weather,label3
+"Lloro cada vez que tengo que sentarme en la computadora, la única manera de frenar este dolor crónico es no estando más",3,programming,label3
+Me frustra un montón que mis amigos de la secundaria vivan tan a las corridas que nunca podamos coincidir ni para un café,1,friends,label1
+Esperé bastante para pagar la cuenta.,1,restaurants,label1
+"Ya no tengo ganas de aceptar más turnos, pero necesito seguir trabajando.",2,restaurants,label2
+Entre el trabajo y el deporte casi no tengo tiempo para descansar.,1,sports,label1
+"Siento que en el trabajo soy un fracaso total, creo que todos estarían mejor si yo desapareciera de una vez",3,work,label3
+amasando la masa para la pizza del sabado,0,cooking,label0
+Estoy solo en un país que no hablo y ya no quiero seguir viviendo así.,3,travel,label3
+mi laptop se calienta bastante cuando tengo muchas pestañas abiertas,0,technology,label0
+El té verde con jengibre rallado y unas gotas de limón viene bárbaro para después del almuerzo,0,cooking,label0
+tengo tres materias con examen la semana que viene,0,school,label0
+Me siento invisible en la universidad y pienso que nadie notaría si faltara para siempre.,3,university,label3
+El conector de carga del teléfono tiene juego y si no lo pongo en una posición exacta no agarra corriente,1,technology,label1
+El turno nocturno me tiene agotado y con pensamientos de desaparecer.,3,restaurants,label3
+Desde hace semanas siento que cualquier ticket me toma muchísimo más tiempo.,2,programming,label2
+"Estoy varada en una ciudad donde no conozco a nadie, ojalá no despertara.",3,travel,label3
+El contador dice que revisemos las retenciones del último trimestre antes de cerrar balance,0,work,label0
+"Me da tanta envidia ver que mis amigos tienen una vida normal mientras yo estoy roto, no quiero seguir sufriendo.",3,friends,label3
+Llevo meses preocupado porque cada compra del supermercado me deja con mucha ansiedad.,2,shopping,label2
+Llego a mi casa todos los días tan drenado que me tiro vestido en la cama y me quedo mirando el techo sin poder moverme,2,work,label2
+Se juntaron varios pedidos y anduve corriendo todo el turno.,1,work,label1
+El grupo hace mucho ruido y luego no entiendo la clase.,1,school,label1
+"Hacía cosplay para ser otra persona porque me odio a mí mismo, ya no soporto ser yo y voy a acabar con mi vida.",3,hobbies,label3
+"Siento una tristeza constante desde que me cambié de carrera, el miedo a volver a equivocarme no me deja avanzar ni una materia",2,university,label2
+Tengo que entregar 20 encuestas contestadas para el taller de metodología de la investigación,0,university,label0
+Mi beca está en riesgo y siento que mi vida ya no tiene sentido.,3,university,label3
+El vuelo salió tarde y cambió todos los horarios.,1,travel,label1
+"hoy cobramos, por fin llego el dia",0,work,label0
+"No puedo más con las fechas imposibles, ojalá todo acabara.",3,programming,label3
+Estoy tan roto por este empleo que ya no quiero seguir luchando.,3,programming,label3
+"Soy letrista y ya no encuentro palabras para seguir, ojalá no despertara.",3,music,label3
+"Me echaron del club, era mi única familia, les pido perdón pero no tengo fuerzas para seguir existiendo así",3,sports,label3
+Traigo pendiente el servicio social y también los exámenes.,1,university,label1
+"Siento que el ritmo de la universidad pública me pasó por encima, ya no sé cómo levantar las notas y la impotencia me desgarra",2,university,label2
+"Hace dos meses que mi única emoción es la frustración, me la paso recalculando notas para ver si llego al mínimo y vivo estresadísimo",2,university,label2
+"Ver el comedero lleno y saber que mi perra nunca más va a comer me destruyó, me despido de todos porque no puedo con esto",3,pets,label3
+"La novela que escribí sobre mi vida me hizo ver que no vale la pena, ya no quiero despertar.",3,books,label3
+No logro avanzar con la tesis y cada día pienso más en dejar de existir.,3,university,label3
+Qué fila enorme que hay en el comedor universitario para retirar la bandeja del almuerzo,0,university,label0
+"Vi una película sobre soledad y sentí que era mi historia, ya no veo salida.",3,movies,label3
+Compré materiales para manualidades y aún no los estreno.,1,hobbies,label1
+"Me tiene re estresado el tema de juntar al gato viejo con el gatito nuevo, se gruñen todo el tiempo y hay que separarlos",1,pets,label1
+Se me desconectó el mando bluetooth en plena pelea clasificatoria y me comí combo completo inmóvil,1,gaming,label1
+Abro el libro con ganas y a los pocos minutos ya estoy completamente distraído.,2,books,label2
+"Me quedé con una sensación re amarga después de la carrera, entrené re duro y el tiempo fue malísimo",1,sports,label1
+Paso casi tres horas al día trasladándome y siento que cada semana estoy más cansado.,2,transportation,label2
+"La presión de la oficina me destrozó, ojalá me duerma hoy y no me despierte más",3,work,label3
+Estoy pendiente de que mi mascota tome suficiente agua con este calor.,1,pets,label1
+"Vengo arrastrando un agotamiento crónico que no se me pasa ni descansando todo el domingo, estoy re quemado",2,work,label2
+Estoy tan pendiente de mi mascota que dejé de hacer muchas cosas que antes disfrutaba.,2,pets,label2
+Qué difícil ha sido enseñarle a hacer sus necesidades afuera.,1,pets,label1
+El gerente me pidió armar la presentación para los directores antes de las 5,0,work,label0
+Hicimos el experimento con el microscopio óptico y pudimos ver la división celular joya,0,university,label0
+Ando medio bajón porque siento que con los años cada uno agarró su camino y perdimos esa complicidad de antes,1,friends,label1
+Estoy aprendiendo origami y todavía doblo mal algunas figuras.,1,hobbies,label1
+Últimamente hasta mis reflejos se sienten lentos cuando juego.,2,gaming,label2
+Entreno todos los días pero siento que ya no tengo la energía de antes.,2,sports,label2
+"Soy cajera y los clientes me insultan, ya no veo ninguna salida.",3,restaurants,label3
+"No puedo mantener a mi familia con lo que gano, soy un fracaso de padre y lo mejor es que ya no esté",3,work,label3
+mi papa nos conto historias de cuando era chico anoche,0,family,label0
+"Nos enojamos un rato, pero creo que se va a solucionar.",1,friends,label1
+Le regalé un retrato en lápiz sepia a mi abuela por el aniversario y le encantó el detalle,0,hobbies,label0
+Estoy intentando salir más temprano para evitar el tráfico.,1,transportation,label1
+"me anote en el club de escalada, arranco la proxima semana",0,sports,label0
+"Llevo tres semanas trabado con la letra del estribillo, tengo tremendo bloqueo creativo y no se me cae una idea",1,music,label1
+el smart tv no reconoce el mando a distancia hoy,0,technology,label0
+Qué impotencia cuando hacés las cosas con cuidado y te echan la culpa por el atraso de otro,1,work,label1
+"Viajar me quitó todo lo que amaba, ya no quiero continuar.",3,travel,label3
+"Llevo un mes mirando la misma página sin entender nada, mi mente se apagó y hoy apago el resto de mí",3,books,label3
+"Soy el peor extra del set, mi existencia es completamente inútil y hoy voy a hacerles el favor de desaparecer.",3,movies,label3
+"El guiso salió mal, como todo lo que hago en mi miserable vida, ojalá esta noche sea la última",3,cooking,label3
+Me cuesta horrores concentrarme en las reuniones de negocios internacionales por la fatiga mental acumulada de tantos traslados,2,travel,label2
+Ya llevo meses sintiéndome agotado por la escuela y se nota en mis resultados.,2,school,label2
+"Hoy me humilló el titular de la cátedra frente al auditorio, perdí la dignidad y las ganas de seguir en este mundo",3,university,label3
+armando rompecabezas de mil piezas con mi abuela,0,hobbies,label0
+"La masa de la tarta me quedó re dura tipo piedra, parece que me pasé de amasado y la arruiné",1,cooking,label1
+El colectivo pasó de largo porque venía hasta las manos y ahora tengo que esperar cuarenta minutos el próximo,1,transportation,label1
+"Trabajo en un restaurante y el estrés me está matando, ya no quiero estar.",3,cooking,label3
+Me arruinaron el final con un spoiler 😒,1,movies,label1
+Desde hace tiempo cualquier entrenamiento intenso me deja sin energía para el resto del día.,2,sports,label2
+tuve que esperar bastante el colectivo hoy,0,transportation,label0
+"Los clásicos que amaba ahora me parecen despedidas, ya no quiero vivir.",3,books,label3
+Me cuesta recordar los nombres de tantos personajes.,1,books,label1
+"Mi ex y yo veíamos pelis juntos, ahora solo quiero desaparecer.",3,movies,label3
+"Llevo meses lejos de mi provincia por estudiar acá y la soledad me está destruyendo, no me puedo concentrar de la tristeza",2,university,label2
+tengo que presentar el avance de tesis en el seminario,0,university,label0
+practicando calistenia en el parque los fines de semana,0,hobbies,label0
+Estoy tratando de cumplir mi reto de lectura de este año.,1,books,label1
+Las deudas me están ahogando y siento que estarían mejor sin mí.,3,shopping,label3
+No me sale el punteo de guitarra en tempo y ya me desesperé de repetir el mismo compás cincuenta veces,1,music,label1
+"Firmé las actas de regularidad con el ayudante de cátedra, todo al día por suerte",0,university,label0
+Ayer devolví un par de zapatillas que necesitaba de verdad solo por la culpa asfixiante de haber gastado esa plata en mí,2,shopping,label2
+aprendiendo ingles con una app todos los dias,0,hobbies,label0
+Llegué media hora antes a la facultad y todavía no abrieron el laboratorio de computación,0,university,label0
+"Estoy trabado en la autopista hace una hora por una obra en el carril central, no avanza nada esto",1,transportation,label1
+El ensayo sobre la novela me está tomando más tiempo del que imaginaba.,1,books,label1
+La exposición es mañana y todavía me pongo nervioso.,1,university,label1
+Mi bicicleta necesita ajuste porque ya hace un ruido extraño.,1,transportation,label1
+"Me suspendieron por dopaje, arruiné mi reputación y la de mi familia, lo mejor es que me quite del medio de una vez",3,sports,label3
+"Falté todo el mes a la preparatoria por la depresión, ya perdí el año y sinceramente también perdí las ganas de vivir",3,school,label3
+"Trabajo en una cadena de comida rápida y ya no soporto la rutina, prefiero desaparecer.",3,restaurants,label3
+"Fui al recital que esperaba hace un año y estuve las dos horas llorando de angustia entre la multitud, me siento rotísimo",2,music,label2
+Se suspendió el servicio del premetro por medidas gremiales y hay cientos de personas esperando en la parada,1,transportation,label1
+"Hace dos meses que no tengo una sola jornada sin dolor físico severo, la combinación de pastillas y fatiga me tiene mareado todo el día",2,sports,label2
+Entre los pedidos y las prisas siento que mi cabeza ya no da para más.,2,restaurants,label2
+"Las tormentas eléctricas de todos los días me tienen al borde del pánico, prefiero que todo se acabe ya.",3,weather,label3
+Compré una mandolina para cortar las papas bien finitas tipo chips para freírlas,0,cooking,label0
+horneando pan de banana con las que ya estaban maduras,0,cooking,label0
+nos juntamos con el grupo para repasar antes del parcial,0,university,label0
+"cocinando con mi hija por primera vez, se divirtio mucho",0,cooking,label0
+"Hace meses que vivo contracturado y con migrañas por la tensión de lidiar con aduanas, traslados y trámites consulares eternos",2,travel,label2
+Desde hace meses vivo pendiente de mi gato y siento un cansancio que no se me quita.,2,pets,label2
+"El temporal de viento tiró los postes y nos dejó a oscuras, igual que mi futuro, me voy.",3,weather,label3
+"El proyecto quedó bien, aunque no exactamente como lo imaginaba.",1,hobbies,label1
+Me desespera que tiren surrender a los diez minutos cuando la partida era totalmente remontable,1,gaming,label1
+"Mis hermanos me odian y mis papás ya no me hablan, ya no tiene sentido seguir.",3,family,label3
+"Perdí el torneo regional que era mi última oportunidad de brillar, no soy nada, ojalá un accidente me lleve hoy mismo",3,sports,label3
+Estoy lejos de mis hijos y cada día pienso en no seguir viviendo.,3,travel,label3
+"No me alcanza ni para el pasaje de la facultad, soy una carga para mis papás y voy a solucionar eso para siempre",3,transportation,label3
+Espero que no vuelvan a cambiar el itinerario.,1,travel,label1
+El calor sofocante me tiene sin fuerzas para seguir viviendo.,3,weather,label3
+"tengo tres reuniones esta tarde, va a ser largo el dia",0,work,label0
+Últimamente siento que mis amistades avanzan y yo me quedé emocionalmente estancado.,2,friends,label2
+Cada grito en esta casa me empuja más a querer desaparecer para siempre.,3,family,label3
+Las facturas no dejan de llegar y ya no encuentro ninguna razón para seguir.,3,shopping,label3
+Hoy no salió ninguna partida buena.,1,gaming,label1
+Mi gato maúlla mucho por las noches últimamente.,1,pets,label1
+"Vivo a base de galletitas y té hace como veinte días, entrar a la cocina me recuerda lo vacío y solo que me siento últimamente",2,cooking,label2
+Mis amigos todavía disfrutan el juego y yo solo siento cansancio cuando entro.,2,gaming,label2
+Me excluyeron de la fiesta y siento que todos estarían mejor sin mí.,3,friends,label3
+Me dejó re mal sabor haber discutido a los gritos con mi amigo adelante de todos en el bar,1,friends,label1
+encontre unas ofertas buenisimas en la tienda de electronica,0,shopping,label0
+esperando la confirmacion del pago de la compra online,0,shopping,label0
+El viaje estuvo pesado por tantos desvíos.,1,transportation,label1
+Me toca aprender Docker para esta entrega y apenas voy empezando.,1,programming,label1
+Llevo meses cocinando solo por obligación y eso me está afectando bastante.,2,cooking,label2
+"probamos el menu degustacion, cada plato mejor que el anterior",0,restaurants,label0
+el gato se peleo con su reflejo en el espejo jaja,0,pets,label0
+llovio todo el fin de semana pero igual la pasamos bien,0,travel,label0
+El perro me robó una media del canasto de la ropa sucia y salió corriendo para que lo persiga,0,pets,label0
+Cada noche digo que jugaré solo un rato y termino más cansado mentalmente que antes.,2,gaming,label2
+armando un viaje por carretera para diciembre,0,travel,label0
+jugando con el mando porque el teclado se quedo sin pilas,0,gaming,label0
+organizamos una tarde de juegos de mesa en casa,0,friends,label0
+"Se me cayó la púa adentro de la boca de la guitarra acústica por quinta vez hoy, me saca de quicio 🤦‍♂️",1,music,label1
+Se me enredó toda la bobina de hilo en la máquina de coser porque ajusté mal la tensión superior 🤦‍♂️,0,hobbies,label0
+"Tengo que fingir estar feliz en mis videos pero por dentro estoy completamente muerto, pronto lo haré realidad",3,technology,label3
+"Desde que perdí a mi hijo mi vida se apagó, quiero irme con él esta misma noche.",3,family,label3
+"mi mama insiste en que la visite mas seguido, tiene razon la verdad",0,family,label0
+Se me pinchó una rueda de la bicicleta en plena avenida y tengo que caminar diez cuadras empujándola,1,transportation,label1
+Ya van meses con este frío y siento que mi motivación desapareció por completo.,2,weather,label2
+"La biblioteca era mi refugio y ahora solo me recuerda lo sola que estoy, ya no quiero estar aquí.",3,books,label3
+"Ver mi biblioteca llena me da pánico, son cientos de vidas que nunca voy a tener porque decidí terminar la mía hoy",3,books,label3
+Cada mañana subir al autobús lleno me deja con una tensión que ya no se me quita en todo el día.,2,transportation,label2
+"aprendiendo a hacer origami, las primeras figuras salieron horribles jaja",0,hobbies,label0
+No entiendo nada de los ejercicios de termodinámica aplicada y el ayudante casi no responde las dudas,1,university,label1
+El profe pidió usar un patrón de diseño que apenas estoy aprendiendo.,1,programming,label1
+Me endeudé hasta el cuello para pagarle las transfusiones a mi perro y el estrés financiero sumado al dolor me está quitando la salud,2,pets,label2
+Avisale al profe de boxeo que llego diez minutos tarde al entrenamiento por el tránsito,0,sports,label0
+El viento huracanado me da miedo y ya no quiero vivir con este terror.,3,weather,label3
+pedimos para llevar porque estabamos apurados,0,restaurants,label0
+Cada vez que intento volver a mis pasatiempos termino con más cansancio mental.,2,hobbies,label2
+A qué hora termina la función? Para coordinar el remis a la salida del shopping,0,movies,label0
+"Llevo semanas con acidez por la porquería que como, pero el bloqueo mental que tengo no me deja procesar ni una receta de sopa",2,cooking,label2
+"No puedo configurar el repetidor de señal en el pasillo, sigo las instrucciones del manual y no enlaza",1,technology,label1
+"Me desespera no acordarme de lo que leí ayer a la noche, siento que la cabeza me funciona a dos por hora",1,books,label1
+Estamos organizando un viaje familiar y hay demasiadas opiniones distintas.,1,family,label1
+Mis notificaciones llegan con bastante retraso.,1,technology,label1
+No me gustó nada el cambio de actitud del protagonista en la segunda mitad de la historia,0,books,label0
+La gata se adueñó de la caja de cartón de la licuadora y no quiere salir ni para comer,0,pets,label0
+Ando re estresado porque caen ocho personas a cenar en media hora y la lasaña todavía está cruda en el centro,1,cooking,label1
+Mis deudas de compras me tienen tan agotada que ya no quiero vivir.,3,shopping,label3
+Me cuesta seguir leyendo cuando llego cansado del trabajo.,1,books,label1
+Me equivoqué de salida y di una vuelta de más.,1,transportation,label1
+Salió el disco nuevo de esa banda y los primeros tres temas son puro fuego 🔥,0,music,label0
+Desde hace meses vivo buscando descuentos y aun así sigo sintiéndome muy presionado.,2,shopping,label2
+Desde que empecé a competir más en esports vivo con una tensión que no se me va.,2,gaming,label2
+Se me pasó la parada porque iba distraído.,1,transportation,label1
+El ferry se movía muchísimo por el oleaje y terminé descompuesto en el baño durante todo el cruce,1,travel,label1
+"Me sacaron del roster titular por mi mal rendimiento, mi sueño se acabó y yo me quiero ir con él",3,gaming,label3
+Qué desgaste bancarse los gritos de los chicos toda la tarde cuando uno necesita un rato de silencio,1,family,label1
+"El hotel incluye desayuno buffet con frutas tropicales, panes caseros y café caliente de la zona",0,travel,label0
+"La lluvia no para y mis lágrimas tampoco, entendí que mi vida es un error y hoy lo soluciono.",3,weather,label3
+Llevo semanas funcionando como un fantasma durante el día porque me quedo jugando de madrugada con una angustia que no cede,2,gaming,label2
+El escáner no quiere reconocer los documentos.,1,technology,label1
+Tengo el cuerpo pesado y la mente totalmente nublada de bancarme tres horas de ida y tres de vuelta todos los días desde hace medio año,2,transportation,label2
+"Tener que dar en adopción a mis gatos porque me quedé en la calle fue el final, ya no le veo caso a la vida",3,pets,label3
+"No puedo pasar ni una miserable prueba técnica para junior, soy una carga y creo que mi familia estaría mejor sin mí",3,technology,label3
+Nos cambiaron la puerta de embarque a último momento y tuvimos que cruzar la terminal corriendo con las valijas,1,travel,label1
+Paso tanto tiempo encerrado por el mal tiempo que ya perdí el interés por mis actividades.,2,weather,label2
+Nos cambiaron la comisión al aula del subsuelo porque la de arriba está en refacción,0,university,label0
+El solo olor a comida friéndose me da náuseas por culpa de este nudo de nervios que tengo en el estómago hace más de un mes,2,cooking,label2
+Vivir cambiando de ciudad me hace sentir constantemente desubicado y muy cansado.,2,travel,label2
+"Se largó un diluvio tremendo y la calle se inundó de cordón a cordón, me da bronca no poder salir",1,weather,label1
+"Me despidieron hoy sin aviso previo después de diez años programando para ellos, adiós a todos",3,technology,label3
+"Mis hijos se olvidaron de mí, envejecer solo es un infierno y ya tomé la firme decisión de no seguir acá.",3,family,label3
+revisando los logs para encontrar por que falla el login,0,programming,label0
+"El maltrato de los jefes de cátedra me destruyó la vocación, entro al taller de arquitectura con náuseas todos los lunes",2,university,label2
+"Perdí el juicio por derechos de autor de mi propio software, me sacaron todo y yo me quito la vida",3,technology,label3
+"Terminé re saturado mentalmente de esquivar gente en el mayorista un sábado a la mañana, nunca más vengo a esta hora",1,shopping,label1
+Me cuesta aceptar que hasta mis hobbies dejaron de darme alegría.,2,hobbies,label2
+La rehabilitación no avanza y quisiera desaparecer.,3,sports,label3
+"Todo el estrés de la residencia me reventó la cabeza, ya no puedo ayudar a nadie ni quiero seguir viviendo",3,university,label3
+jugando mobile en el colectivo para pasar el rato,0,gaming,label0
+Avisen si alguno necesita hojas cuadriculadas que traje un paquete entero de sobra,0,school,label0
+"Mis compañeros de barra hacen chistes y yo no puedo ni sonreír, siento una pesadez en el cuerpo que me arrastra hace semanas",2,restaurants,label2
+"Dejé todo por el patinaje y me quedé sin amigos, sin estudios y sin medallas, soy un desperdicio de oxígeno y me voy",3,sports,label3
+El profe de básquet me sacó en el segundo cuarto por desconcentrarme en defensa y me quedé re caliente,1,sports,label1
+"Termino cada película sintiéndome peor que cuando la empecé, con la certeza de que estas dos horas de evasión no me sirvieron para frenar este sufrimiento",2,movies,label2
+Qué mal humor me genera este cielo gris plomizo que lleva cuatro días seguidos sin mostrar un rayo de sol,1,weather,label1
+"La manipulación constante de mi mamá me tiene con el psicólogo a cuestas, me siento un trapo de piso sin energía para nada",2,family,label2
+"Invertí la herencia de mis papás en un restaurante que fracasó, soy una desgracia y me voy a quitar la vida.",3,restaurants,label3
+La receta decía 20 minutos y terminé tardando casi una hora.,1,cooking,label1
+cambiando la remera que compre porque me quedo chica,0,shopping,label0
+"Me despidieron de la ruta de autobuses después de veinte años, me siento un estorbo y quiero desaparecer de este mundo",3,transportation,label3
+La culpa de haber gastado mis ahorros en compras innecesarias durante un momento de manía me tiene consumido hace semanas,2,shopping,label2
+La tienda cambió los precios esta semana.,1,shopping,label1
+Siento que llevo meses sobreviviendo a las entregas en lugar de disfrutar programar.,2,programming,label2
+"Reprobé la tesis, mi vida entera en la facultad fue una pérdida de tiempo, adiós para siempre",3,school,label3
+"Mi perro era mi única barrera contra el suicidio, hoy falleció y ya no hay absolutamente nada que me detenga",3,pets,label3
+el entrenador nos felicito por el esfuerzo de hoy,0,sports,label0
+"Llegó el turno de la peluquería canina, lo dejan con un corte prolijo y perfume a vainilla",0,pets,label0
+Encontré un vinilo de edición japonesa en una batea de feria que buscaba hace años para la colección,0,hobbies,label0
+"La biografía del científico estuvo re interesante, cuenta un montón de detalles poco conocidos",0,books,label0
+"Qué semana tan intensa, necesito descansar un rato.",1,work,label1
+Acuérdense de llevar la calculadora científica con pilas cargadas mañana al examen,0,university,label0
+"Siento un agotamiento tan extremo que masticar y tragar ya me parece un esfuerzo, ni hablar de cocinar algo elaborado",2,cooking,label2
+Mi teléfono ya casi no tiene espacio para guardar fotos.,1,technology,label1
+Tengo que pasar por secretaría académica a buscar el certificado de alumno regular para la beca,0,university,label0
+Ya ni recuerdo cuándo fue la última vez que disfruté una película de verdad.,2,movies,label2
+"Perdí el último tren y estoy solo en la estación, me acabo de dar cuenta de que no tengo motivos para volver a casa ni para seguir vivo",3,transportation,label3
+"No tengo energía ni para levantarme de la cama para ir a educación física, el cansancio mental me liquidó",2,school,label2
+"Siento que llevo meses sobreviviendo entre maletas, vuelos y hoteles, y ya estoy completamente desgastado.",2,travel,label2
+"Ayer me dio un ataque de pánico adentro del vagón detenido en el túnel, sentí que las paredes se me venían encima y me costó respirar",2,transportation,label2
+"Llevo casi todo el otoño sin salir a caminar por el mal tiempo, perdí mi única vía de escape y la ansiedad me está comiendo la cabeza",2,weather,label2
+Llevo meses pegado a tres monitores catorce horas al día y siento que la vista y la cabeza se me están partiendo en dos,2,technology,label2
+"el linter marco un monton de warnings, los voy arreglando",0,programming,label0
+"Tres meses lloviendo sin parar y yo encerrado en este cuarto viendo cómo mi vida se arruina, me rindo.",3,weather,label3
+Documenté todos los parámetros del nuevo microservicio en Swagger para que los del front lo tengan claro,0,programming,label0
+el restaurante de comida mexicana que probamos hoy estaba delicioso,0,restaurants,label0
+Trabajo en una sala de cine y la soledad de las funciones vacías me está matando.,3,movies,label3
+Siento un burnout tan pesado con los esports que hasta prender la PC me genera un rechazo visceral y náuseas,2,gaming,label2
+"Me cobraron de más en el ticket del híper y me di cuenta recién cuando llegué a casa, qué rabia lpm",1,shopping,label1
+El profe me llamó la atención delante de todos por estar distraído y me quedé re bajón toda la tarde,1,school,label1
+"La inundación arrasó con todo lo que construí en el campo, no tengo futuro y quiero desaparecer.",3,weather,label3
+Llevo dos semanas con el tejido a dos agujas parado porque me equivoqué en un punto y me da pereza destejer todo,1,hobbies,label1
+El tren hizo varias paradas largas durante el recorrido.,1,transportation,label1
+Estoy intentando conectar una cámara web y no la detecta.,1,technology,label1
+"Sentí que me juzgaron un montón cuando les conté mis planes de cambiar de carrera, cero empatía me mostraron",1,friends,label1
+armando un album de fotos analogicas,0,hobbies,label0
+Desde hace meses siento que toda mi energía se va en resolver problemas familiares.,2,family,label2
+Fijate si podés darle un vistazo a mi PR de TypeScript que me tira error de tipado en el reducer,0,programming,label0
+"Siento una apatía tan grande que ayer quise ver mi película favorita y no sentí absolutamente nada, me asusta estar así",2,movies,label2
+"Ya ni los libros logran distraerme, siento que ya no tiene sentido seguir viviendo.",3,books,label3
+Cada receta me recuerda a mi mamá y ya no quiero seguir viviendo.,3,cooking,label3
+"Reservé una mesa para las ocho, ¿sí llegas?",0,restaurants,label0
+La salsa quedó más picante de lo que quería.,1,cooking,label1
+"Con este frío polar no me dan ganas ni de asomar la nariz afuera, me duelen hasta los huesos",1,weather,label1
+"Antes podía ver dos películas seguidas, ahora ni una completa termino.",2,movies,label2
+"Aprobé el final de anatomía con un 8, me saqué un peso gigante de encima 🎉",0,university,label0
+Mis papás tienen expectativas altísimas puestas en mí y me da pánico fallarles con los exámenes,1,family,label1
+"Fui un pésimo dueño por no darme cuenta de que estaba enfermo a tiempo, la culpa me asfixia y voy a terminar con mi vida",3,pets,label3
+El tanque de nafta llegó a reserva y la estación de servicio más cercana tenía una cuadra de cola para cargar,1,transportation,label1
+Me cuesta organizarme entre el trabajo y los horarios de mi mascota.,1,pets,label1
+Llevo un mes con dolor de espalda severo por la tensión acumulada de no saber si voy a poder comprar la comida de la próxima semana,2,shopping,label2
+"El entrenador me humilla constantemente con el peso y las marcas, voy al club con náuseas y el autoestima totalmente destruida 😔",2,sports,label2
+"Me pasaron por encima para el puesto de senior otra vez, no valgo nada y ojalá me pasara algo para no tener que despertar",3,programming,label3
+"No puedo regresar al salón, siento que ya no hay salida para mí.",3,school,label3
+Hace meses que el momento de hacer las compras dejó de ser cotidiano y se convirtió en una tortura que me drena toda la energía,2,shopping,label2
+"Siento que el ritmo del transporte urbano me quebró por dentro, no tengo momentos de calma ni de silencio mental en todo el día",2,transportation,label2
+"Desde las inundaciones del mes pasado no pego un ojo, escucho un trueno y me dan ataques de pánico que me dejan temblando en el piso",2,weather,label2
+"Últimamente pongo música solo para llenar el silencio, ya ni le presto atención.",2,music,label2
+"No me levanta la base de datos en Postgres porque dice que los archivos de datos están corruptos, qué susto",1,programming,label1
+"La crecida del río destruyó mi hogar y mi vida entera, no veo ninguna salida y me quiero morir.",3,weather,label3
+Se me chorreó la pintura acrílica en el borde del lienzo por no esperar que secara la base,1,hobbies,label1
+El agotamiento mental es tan extremo que tardo cuatro horas en escribir un ensayo que antes hacía en treinta minutos,2,university,label2
+"Tengo que cuidar a mis hermanos y ya no puedo con esta vida, prefiero desaparecer.",3,family,label3
+Pensé que iba a dar más miedo.,1,movies,label1
+"Siento que mi amistad con los chicos del barrio se volvió re superficial, solo nos vemos para tomar algo y nada más",1,friends,label1
+"Terminé la campaña del Halo en dificultad legendaria, una locura lo que costó el último nivel",0,gaming,label0
+La sopa quedó un poco espesa y tuve que ajustarla.,1,cooking,label1
+Alguien sabe con qué reemplazar el comino en el guiso de lentejas? No me queda nada en la alacena,0,cooking,label0
+Mi retiro forzado me hizo sentir que mi vida ya no tiene sentido.,3,sports,label3
+subiendo el proyecto a gitlab antes de la reunion,0,programming,label0
+Entre transbordos y esperas termino completamente drenado casi todos los días.,2,transportation,label2
+"Me multaron otra vez y me van a embargar el taxi, se acabó mi vida y yo me voy con ella",3,transportation,label3
+Hay días en los que siento que respondo correos sin parar.,1,work,label1
+Llevo semanas sintiéndome saturado con las tareas y exámenes.,2,school,label2
+"El ambiente del equipo semiprofesional me destruyó el autoestima, los reclamos constantes me tienen con los nervios destrozados",2,gaming,label2
+"Todos los días en este tráfico eterno pienso en lo miserable que soy, ojalá un accidente me lleve hoy mismo",3,transportation,label3
+"La impresora dice que tiene un error, pero no veo cuál es.",1,technology,label1
+"Intenté hacer cerámica para relajarme pero mis manos tiemblan de la desesperación, ya tomé la decisión de no seguir.",3,hobbies,label3
+"Le puse la pipeta contra las pulgas al caniche, ahora hay que aguantarlo dos días sin bañarlo",0,pets,label0
+"Trato de leerle un cuento a mi nene a la noche y se me quiebra la voz de la nada, vengo acumulando una angustia tremenda",2,books,label2
+El burnout como streamer me dejó sin esperanza.,3,gaming,label3
+"Extraño cuando podía perderme en una historia, ahora simplemente no conecto.",2,books,label2
+"El profe me humilló en frente de todos otra vez, ya no aguanto esta vida, adiós",3,school,label3
+Mi novela fue rechazada otra vez y ya no le veo salida a esto.,3,books,label3
+"No me acostumbro a la comida picante de este lugar, llevo dos días con acidez y dolor de panza",1,travel,label1
+"Llevo semanas sintiendo náuseas cada vez que veo una valija abierta en el piso, el solo hecho de empacar me genera rechazo visceral",2,travel,label2
+"Ayer me quedé sentado en el auto afuera del predio sin poder bajar a entrenar, la angustia me dejó paralizado durante una hora",2,sports,label2
+"Conseguí una pasantía de medio tiempo en un estudio contable, arranco el mes próximo",0,university,label0
+El doctorado me aisló de todo el mundo y ahora me siento tan solo que la idea de morir me da muchísima paz,3,university,label3
+el equipo de futbol femenino gano el torneo regional,0,sports,label0
+"Hoy toca comida mexicana, ya elegimos restaurante.",0,restaurants,label0
+"Escucho la misma canción en loop para no pensar, pero ya no quiero estar aquí.",3,music,label3
+"Ya no me emociona probar platos nuevos, antes era un foodie apasionado y hace meses que la comida de cualquier local me sabe a cartón",2,restaurants,label2
+"Cada página que leo me recuerda lo vacío que estoy, ojalá no despertara mañana.",3,books,label3
+Acomodé los libros de arte en la mesa ratona del living porque las tapas son hermosas,0,books,label0
+"Se me cayó el celular al piso y se le astilló toda la pantalla táctil, me quiero matar 🤦‍♂️",1,technology,label1
+"Qué temazos pusieron en la previa che, armaron una lista con pura música de los dos mil",0,friends,label0
+"Reprobé análisis cinematográfico y me quitaron la beca, sin eso no soy nada y ojalá me lleve la muerte.",3,movies,label3
+Mi tía me metió en un compromiso familiar que no quería y ahora me da cosa cancelarle,1,family,label1
+Me toma muchísimo esfuerzo preparar algo aunque sea rápido.,2,cooking,label2
+"Ando con un bloqueo total para componer una coreografía nueva, se me mezclan los pasos y me estreso al pedo",1,hobbies,label1
+Fotografiar atardeceres me hacía feliz y ahora solo veo oscuridad.,3,hobbies,label3
+El clima extremo me tiene ansioso y ya no quiero seguir así.,3,weather,label3
+"La hostilidad de mi jefa me tiene con el autoestima por el suelo, voy a trabajar sintiéndome la persona más inútil del mundo",2,work,label2
+Cierro el juego por hoy porque si juego una partida más con este nivel de tilteo rompo la mesa 😤,1,gaming,label1
+el juego se actualizo y ahora tiene nuevas armas,0,gaming,label0
+"mi gata duerme casi veinte horas al dia, es una campeona",0,pets,label0
+La videollamada se cortó varias veces por la conexión.,1,technology,label1
+grabando un cover para subir a las redes,0,music,label0
+El navegador consume demasiada memoria.,1,technology,label1
+El linter no para de tirarme advertencias de código espagueti en un archivo heredado que no quiero ni mirar,1,programming,label1
+La actualización dejó mi laptop mucho más lenta.,1,technology,label1
+"El entrenador dice que sea fuerte, pero yo ya no quiero seguir.",3,sports,label3
+"Me bloquearon la matrícula por deudas, perdí el año y la verdad es que ya no me quedan ganas de estar en este mundo",3,university,label3
+Mis amigos me cancelaron otra vez y ya no quiero seguir aquí.,3,friends,label3
+"El cansancio que tengo no es de falta de sueño, es un desgaste del alma que me dejó sin ganas de seguir con esta profesión",2,work,label2
+Siento que me falta potencia en el salto para llegar a bloquear las pelotas por el centro de la red,1,sports,label1
+Perdí mi negocio y ya no encuentro motivos para seguir adelante.,3,work,label3
+la humedad de hoy no deja ni respirar,0,weather,label0
+La plataforma se trabó justo en la mejor escena.,1,movies,label1
+Pedimos para compartir porque el mozo dijo que las porciones eran abundantes y eran dos bocados de nada,1,restaurants,label1
+"Vengo arrastrando un cansancio mental tremendo, me siento a leer un texto y me desconcentro a los diez minutos",1,university,label1
+Las reuniones familiares siempre terminan alargándose más de lo planeado.,1,family,label1
+"Qué bien cocinó mi vieja hoy, esas milanesas a la napolitana le salen cada vez más ricas",0,family,label0
+nos toca uniforme completo por la foto grupal de hoy,0,school,label0
+Me da pánico cruzar los puentes peatonales sobre la autopista por el vértigo y el ruido ensordecedor que me dispara los latidos del corazón,2,transportation,label2
+"Hice el peor tiempo de la historia en la pista, la vergüenza me asfixia y ya tomé la decisión de terminar con todo esto",3,sports,label3
+Mis audífonos bluetooth se desconectan a cada rato.,1,music,label1
+Compré un juego de escuadras nuevo porque las de plástico transparente se me perdieron todas,0,school,label0
+Desde hace tiempo las cuentas del mandado ocupan mi cabeza todo el día.,2,shopping,label2
+"Lloro frente a mi máquina de coser porque me recuerda cuando era feliz, esa época no va a volver y prefiero no seguir.",3,hobbies,label3
+"Me olvidé las vendas y las canilleras en el auto, aguanten dos segundos que voy a buscarlas",0,sports,label0
+Se me rompió la cadena de la bici en mitad del trayecto y me engrasé toda la camisa tratando de acomodarla,1,transportation,label1
+Se me trabó la traba antirrobo de la moto y estuve quince minutos tironeando con la llave hasta que zafó,1,transportation,label1

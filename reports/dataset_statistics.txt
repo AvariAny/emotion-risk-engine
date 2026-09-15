@@ -1,0 +1,48 @@
+============================================================
+EMOTION RISK DATASET
+============================================================
+
+Total ejemplos           : 7819
+Mensajes únicos          : 7819
+Duplicados               : 0
+
+LONGITUD
+Palabras promedio        : 15.39
+Palabras mínimas         : 5
+Palabras máximas         : 31
+
+Caracteres promedio      : 84.69
+Caracteres mínimos       : 26
+Caracteres máximos       : 157
+
+============================================================
+DISTRIBUCIÓN POR LABEL
+============================================================
+Label 0: 1968 (25.17%)
+Label 1: 2000 (25.58%)
+Label 2: 2000 (25.58%)
+Label 3: 1851 (23.67%)
+
+============================================================
+DISTRIBUCIÓN POR TOPIC
+============================================================
+cooking            402
+friends            402
+books              401
+family             401
+gaming             401
+hobbies            401
+programming        401
+pets               401
+school             401
+weather            401
+sports             401
+shopping           401
+work               401
+university         400
+restaurants        400
+technology         400
+movies             351
+music              351
+transportation     351
+travel             351
