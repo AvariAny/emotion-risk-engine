@@ -2,188 +2,279 @@
 
 ## Project Overview
 
-Emotion Risk Engine is an AI-powered backend capable of estimating emotional risk from natural language conversations using Transformer-based models.
+Emotion Risk Engine is an AI-powered Natural Language Processing (NLP) backend capable of estimating emotional risk from Spanish-language conversations using Transformer-based models.
 
-The system classifies text into four risk levels and is designed to be integrated into chatbots, mental health platforms, or monitoring systems.
-
----
-
-## Vision
-
-Build a modular and explainable emotional risk analysis engine using modern NLP techniques.
+The engine classifies messages into four emotional risk levels and exposes predictions through a REST API, making it suitable for integration into chatbots, healthcare platforms, educational systems, or real-time monitoring services.
 
 ---
 
-## Main Goals
+# Vision
 
-- Detect emotional risk from text.
-- Classify into four predefined risk levels.
+Build a modular, explainable, and production-ready emotional risk analysis engine specialized in the Spanish language.
+
+---
+
+# Main Goals
+
+- Detect emotional risk from free-text conversations.
+- Classify messages into four predefined risk levels.
+- Return confidence scores for every prediction.
 - Expose predictions through a REST API.
-- Keep the system modular and extensible.
-- Support future explainability and model improvements.
+- Keep the architecture modular and scalable.
+- Support future explainability and conversation-level reasoning.
 
 ---
 
-## Architecture
+# Current Architecture
 
-Current architecture:
-
-Dataset
-↓
-
-Data Cleaning
-
-↓
-
-DistilBERT Model
-
-↓
-
-Risk Classification
-
-↓
-
-Prediction Service
-
-↓
-
+```
+Dataset Generation
+        │
+        ▼
+Dataset Cleaning
+        │
+        ▼
+Train / Validation / Test Split
+        │
+        ▼
+BETO (Spanish BERT)
+        │
+        ▼
+Emotion Risk Classification
+        │
+        ▼
+Prediction Engine
+        │
+        ▼
+Probability Estimation
+        │
+        ▼
 REST API (Upcoming)
-
-↓
-
-Frontend (Upcoming)
+        │
+        ▼
+Frontend / Mobile App (Upcoming)
+```
 
 ---
 
-## Tech Stack
+# Tech Stack
 
 - Python 3.14
 - PyTorch
 - Hugging Face Transformers
+- BETO (dccuchile/bert-base-spanish-wwm-cased)
 - Datasets
 - Scikit-Learn
 - Pandas
+- NumPy
 - FastAPI (planned)
 - Docker (planned)
 
 ---
 
-## Dataset
+# Dataset
 
 Current dataset:
 
-- 2010 manually annotated examples
-- Four balanced classes
+- **7,819** manually reviewed Spanish chat messages
+- Four balanced emotional risk classes
 - CSV format
-- Human-reviewed annotations
+- Human-verified annotations
+- Multiple everyday conversation topics
 
 Risk levels:
 
-0 — No Risk
-
-1 — Low Risk
-
-2 — High Risk
-
-3 — Critical Risk
+| Label | Description |
+|-------|-------------|
+| 0 | No Risk |
+| 1 | Low Risk |
+| 2 | Moderate Risk |
+| 3 | High Risk |
 
 ---
 
-## Machine Learning Model
+# Machine Learning Model
 
-Model:
+Current model
 
-- DistilBERT
+- BETO (Spanish BERT)
 - Sequence Classification
 - Four output classes
+- Hugging Face Transformers
 
-Current performance:
+Current performance (Test Set)
 
-Accuracy: ~82%
-
-Weighted F1: ~82%
+| Metric | Score |
+|--------|--------|
+| Accuracy | **97.57%** |
+| Precision | **97.66%** |
+| Recall | **97.60%** |
+| Macro F1 | **97.60%** |
 
 ---
 
-## Risk Engine
+# Current Features
 
-Current capabilities:
+✔ Dataset generation
 
-✔ Load trained model
+✔ Dataset statistics
 
-✔ Predict emotional risk
+✔ Train / Validation / Test split
 
-✔ Interactive console predictions
+✔ BETO training pipeline
 
-Future capabilities:
+✔ Model evaluation
 
-- Confidence score
-- Explainability
+✔ Confusion matrix generation
+
+✔ Classification report
+
+✔ Interactive prediction
+
+✔ Prediction with probabilities
+
+✔ Best checkpoint saving
+
+---
+
+# Upcoming Features
+
+- Probability calibration
+- Explainability (Attention / SHAP)
 - Conversation context
 - Rule-based post-processing
+- Model versioning
+- Docker support
 
 ---
 
-## API
+# REST API (Next Sprint)
 
-Status:
+Status
 
 Planned
 
-Endpoints:
+Endpoints
 
+```
+GET  /health
+GET  /version
 POST /predict
-
-GET /health
-
-GET /version
+POST /predict_proba
+```
 
 ---
 
-## Frontend
+# Frontend
 
-Status:
+Status
 
 Planned
 
-Future interface:
+Future interface
 
 - Text input
 - Risk visualization
-- Confidence indicator
+- Confidence bars
+- Probability distribution
+- Conversation history
 
 ---
 
-## Roadmap
+# Mobile App
 
-Sprint 0 — Foundation
+Status
 
-[x] Repository
+Planned
 
-[x] Documentation
+Features
 
-[x] Dataset
-
-[x] Model Training
-
-[x] Model Evaluation
-
-[x] Prediction Script
-
-[ ] REST API
-
-[ ] Frontend
-
-[ ] Docker
-
-[ ] Deployment
+- Chat interface
+- Real-time predictions
+- REST API integration
+- Emotional risk visualization
 
 ---
 
-## Current Status
+# Roadmap
 
-Machine Learning pipeline completed.
+## Sprint 0 — Dataset
 
-Current phase:
+- [x] Repository
+- [x] Documentation
+- [x] Dataset generation
+- [x] Dataset statistics
+- [x] Train / Validation / Test split
 
-API Development.
+---
+
+## Sprint 1 — Machine Learning
+
+- [x] BETO training
+- [x] Model evaluation
+- [x] Confusion matrix
+- [x] Prediction script
+- [x] Prediction with probabilities
+
+---
+
+## Sprint 2 — Model Export
+
+- [ ] Export trained model
+- [ ] ONNX export
+- [ ] TorchScript export
+
+---
+
+## Sprint 3 — Backend
+
+- [ ] FastAPI
+- [ ] CRUD
+- [ ] Prediction endpoints
+- [ ] Swagger documentation
+
+---
+
+## Sprint 4 — Frontend
+
+- [ ] Web Interface
+- [ ] Mobile App
+- [ ] Charts
+- [ ] Authentication
+
+---
+
+## Sprint 5 — Deployment
+
+- [ ] Docker
+- [ ] Docker Compose
+- [ ] CI/CD
+- [ ] Cloud Deployment
+
+---
+
+# Current Status
+
+Current version:
+
+**Emotion Risk Engine v2 (BETO)**
+
+Pipeline status
+
+✅ Dataset completed
+
+✅ Model trained
+
+✅ Model evaluated
+
+✅ Prediction engine completed
+
+🚧 Exporting model (next)
+
+🚧 REST API (next)
+
+🚧 CRUD
+
+🚧 Frontend
+
+🚧 Deployment
