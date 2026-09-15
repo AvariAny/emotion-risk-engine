@@ -269,11 +269,11 @@ Pipeline status
 
 ✅ Prediction engine completed
 
-🚧 Exporting model (next)
+✅ Exporting model 
 
-🚧 REST API (next)
+✅ REST API 
 
-🚧 CRUD
+🚧 CRUD   (next)
 
 🚧 Frontend
 

@@ -1,43 +1,11 @@
 from fastapi import FastAPI
-from pydantic import BaseModel
 
-from app.services.emotion_model import EmotionRiskModel
+from app.api.routes import router
 
 app = FastAPI(
-    title="Emotion Risk Engine API",
-    version="1.0.0",
-    description="API para evaluar riesgo emocional utilizando DistilBERT.",
+    title="Emotion Risk Engine",
+    version="2.0.0",
+    description="AI API for Emotional Risk Detection"
 )
 
-model = EmotionRiskModel()
-
-
-class PredictionRequest(BaseModel):
-    text: str
-
-
-@app.get("/")
-def root():
-    return {
-        "message": "Emotion Risk Engine API",
-        "status": "running"
-    }
-
-
-@app.get("/health")
-def health():
-    return {
-        "status": "ok"
-    }
-
-
-@app.get("/version")
-def version():
-    return {
-        "version": "1.0.0"
-    }
-
-
-@app.post("/predict")
-def predict(request: PredictionRequest):
-    return model.predict(request.text)
+app.include_router(router)
