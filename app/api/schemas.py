@@ -83,6 +83,42 @@ class PredictionUpdate(BaseModel):
 
 
 # ============================================================
+# Stats
+# ============================================================
+
+class PredictionStats(BaseModel):
+    """
+    Estadísticas agregadas del historial de predicciones.
+    """
+
+    total_predictions: int
+
+    average_confidence: float
+
+    risk_distribution: dict[int, int]
+
+
+# ============================================================
+# Alert
+# ============================================================
+
+class AlertResponse(BaseModel):
+    """
+    Representación de una predicción de alto riesgo.
+    """
+
+    id: int
+    text: str
+    risk: int
+    confidence: float
+    created_at: datetime
+
+    model_config = {
+        "from_attributes": True
+    }
+
+
+# ============================================================
 # Health Check
 # ============================================================
 

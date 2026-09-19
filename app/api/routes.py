@@ -1,14 +1,24 @@
+import csv
+import io
+
 from fastapi import APIRouter, Depends, HTTPException
+from fastapi.responses import JSONResponse, StreamingResponse
 from sqlalchemy.orm import Session
+from sqlalchemy import func
 
 from app.database.database import get_db
 from app.database.models import Prediction
+
+from app.utils.config import LABELS
+from app.utils.logger import logger
 
 from app.api.schemas import (
     PredictionRequest,
     PredictionResponse,
     PredictionHistory,
-    PredictionUpdate
+    PredictionUpdate,
+    PredictionStats,
+    AlertResponse
 )
 
 from app.services.predictor import EmotionPredictor
@@ -54,6 +64,12 @@ def predict(
         db
     )
 
+    logger.info(
+        f'Prediction | text="{request.text}" | '
+        f'risk={result["label"]} | '
+        f'confidence={result["confidence"]:.4f}'
+    )
+
     return PredictionResponse(
         label=result["label"],
         class_name=result["class"],
@@ -97,6 +113,9 @@ def get_prediction(
     )
 
     if prediction is None:
+        logger.warning(
+            f"Prediction {prediction_id} not found"
+        )
         raise HTTPException(
             status_code=404,
             detail="Prediction not found"
@@ -126,6 +145,9 @@ def update_prediction_patch(
     )
 
     if prediction is None:
+        logger.warning(
+            f"Prediction {prediction_id} not found for PATCH"
+        )
         raise HTTPException(
             status_code=404,
             detail="Prediction not found"
@@ -135,6 +157,11 @@ def update_prediction_patch(
 
     db.commit()
     db.refresh(prediction)
+
+    logger.info(
+        f"Prediction {prediction_id} updated (PATCH) "
+        f"risk={payload.risk}"
+    )
 
     return prediction
 
@@ -156,6 +183,9 @@ def update_prediction_put(
     )
 
     if prediction is None:
+        logger.warning(
+            f"Prediction {prediction_id} not found for PUT"
+        )
         raise HTTPException(
             status_code=404,
             detail="Prediction not found"
@@ -165,6 +195,11 @@ def update_prediction_put(
 
     db.commit()
     db.refresh(prediction)
+
+    logger.info(
+        f"Prediction {prediction_id} updated (PUT) "
+        f"risk={request.risk}"
+    )
 
     return prediction
 
@@ -189,6 +224,9 @@ def delete_prediction(
     )
 
     if prediction is None:
+        logger.warning(
+            f"Prediction {prediction_id} not found for DELETE"
+        )
         raise HTTPException(
             status_code=404,
             detail="Prediction not found"
@@ -197,4 +235,156 @@ def delete_prediction(
     db.delete(prediction)
     db.commit()
 
+    logger.info(f"Prediction {prediction_id} deleted")
+
     return
+
+
+# ============================================================
+# Stats
+# ============================================================
+
+@router.get(
+    "/stats",
+    response_model=PredictionStats
+)
+def stats(
+    db: Session = Depends(get_db)
+):
+
+    total = db.query(Prediction).count()
+
+    avg_confidence = (
+        db.query(func.avg(Prediction.confidence))
+        .scalar()
+    ) or 0.0
+
+    distribution_rows = (
+        db.query(Prediction.risk, func.count(Prediction.risk))
+        .group_by(Prediction.risk)
+        .all()
+    )
+
+    # Inicializamos TODAS las clases posibles a 0,
+    # usando los índices de LABELS para no hardcodear.
+    risk_distribution = {
+        i: 0 for i in range(len(LABELS))
+    }
+
+    # Sobrescribimos solo las clases que sí aparecen en la BD.
+    for risk, count in distribution_rows:
+        risk_distribution[risk] = count
+
+    return PredictionStats(
+        total_predictions=total,
+        average_confidence=round(float(avg_confidence), 4),
+        risk_distribution=risk_distribution
+    )
+
+
+# ============================================================
+# Alerts
+# ============================================================
+
+@router.get(
+    "/alerts",
+    response_model=list[AlertResponse]
+)
+def alerts(
+    db: Session = Depends(get_db),
+    risk_threshold: int = 3
+):
+    return (
+        db.query(Prediction)
+        .filter(Prediction.risk >= risk_threshold)
+        .order_by(Prediction.created_at.desc())
+        .all()
+    )
+
+
+# ============================================================
+# Export JSON
+# ============================================================
+
+@router.get("/export/json")
+def export_json(
+    db: Session = Depends(get_db)
+):
+
+    predictions = (
+        db.query(Prediction)
+        .order_by(Prediction.created_at.desc())
+        .all()
+    )
+
+    data = []
+
+    for prediction in predictions:
+
+        data.append(
+            {
+                "id": prediction.id,
+                "text": prediction.text,
+                "risk": prediction.risk,
+                "confidence": prediction.confidence,
+                "created_at": prediction.created_at.isoformat()
+            }
+        )
+
+    logger.info(
+        f"Exported {len(data)} predictions to JSON"
+    )
+
+    return JSONResponse(content=data)
+
+
+# ============================================================
+# Export CSV
+# ============================================================
+
+@router.get("/export/csv")
+def export_csv(
+    db: Session = Depends(get_db)
+):
+
+    predictions = (
+        db.query(Prediction)
+        .order_by(Prediction.created_at.desc())
+        .all()
+    )
+
+    output = io.StringIO()
+
+    writer = csv.writer(output)
+
+    writer.writerow([
+        "id",
+        "text",
+        "risk",
+        "confidence",
+        "created_at"
+    ])
+
+    for prediction in predictions:
+        writer.writerow([
+            prediction.id,
+            prediction.text,
+            prediction.risk,
+            prediction.confidence,
+            prediction.created_at
+        ])
+
+    output.seek(0)
+
+    logger.info(
+        f"Exported {len(predictions)} predictions to CSV"
+    )
+
+    return StreamingResponse(
+        iter([output.getvalue()]),
+        media_type="text/csv",
+        headers={
+            "Content-Disposition":
+            "attachment; filename=predictions.csv"
+        }
+    )
