@@ -2,6 +2,7 @@
 Schemas (Pydantic) del Emotion Risk Engine API.
 """
 
+from datetime import datetime
 from typing import Dict
 
 from pydantic import BaseModel, Field
@@ -47,6 +48,38 @@ class PredictionResponse(BaseModel):
     model_config = {
         "populate_by_name": True
     }
+
+
+# ============================================================
+# History
+# ============================================================
+
+class PredictionHistory(BaseModel):
+    """
+    Representación de una predicción almacenada en la base de datos.
+    """
+
+    id: int
+    text: str
+    risk: int
+    confidence: float
+    created_at: datetime
+
+    model_config = {
+        "from_attributes": True
+    }
+
+
+# ============================================================
+# Update
+# ============================================================
+
+class PredictionUpdate(BaseModel):
+    """
+    Campos editables de una predicción existente.
+    """
+
+    risk: int
 
 
 # ============================================================
