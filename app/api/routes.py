@@ -1,4 +1,7 @@
-from fastapi import APIRouter
+from fastapi import APIRouter, Depends
+from sqlalchemy.orm import Session
+
+from app.database.database import get_db
 
 from app.api.schemas import (
     PredictionRequest,
@@ -38,9 +41,15 @@ def version():
     "/predict",
     response_model=PredictionResponse
 )
-def predict(request: PredictionRequest):
+def predict(
+    request: PredictionRequest,
+    db: Session = Depends(get_db)
+):
 
-    result = predictor.predict(request.text)
+    result = predictor.predict(
+        request.text,
+        db
+    )
 
     return PredictionResponse(
         label=result["label"],
