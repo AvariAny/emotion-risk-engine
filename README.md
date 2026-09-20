@@ -48,9 +48,15 @@ Weighted F1
 - Training ✔
 - Evaluation ✔
 - Prediction ✔
-- API 🚧
-- Frontend 🚧
-- Docker 🚧
+- API ✔
+- Frontend ✔
+- Docker ✔
+
+## Cómo ejecutar el proyecto
+1. Clona este repositorio.
+2. Renombra el archivo `.env.example` a `.env`.
+3. Ejecuta `docker compose up --build`.
+4. Abre `http://localhost:8000/docs` en tu navegador.
 
 ## Author
 

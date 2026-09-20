@@ -273,8 +273,8 @@ Pipeline status
 
 ✅ REST API 
 
-🚧 CRUD   (next)
+✅ CRUD   
 
-🚧 Frontend
+🚧 Frontend 
 
 🚧 Deployment
