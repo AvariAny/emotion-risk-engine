@@ -1,18 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+
 # Virtual environment
 .venv/
 
-# Python
-__pycache__/
-*.pyc
-
-# Hugging Face checkpoints
-results/
-
-# Trained models
-models/
-
-# Temporary
-tmp_trainer/
+# VS Code
+.vscode/
 
 # Jupyter
 .ipynb_checkpoints/
+
+# Resultados de entrenamiento
+results/
+
+# Modelos entrenados
+models/
+
+# Dataset procesado (opcional)
+data/processed/
+
+# Modelos grandes
+*.safetensors
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+
+.env
