@@ -2,6 +2,7 @@
 Configuración global del Emotion Risk Engine.
 """
 
+import os
 from pathlib import Path
 
 # ============================================================
@@ -15,15 +16,22 @@ APP_DESCRIPTION = (
 VERSION = "2.0.0"
 
 # ============================================================
-# Directorios del proyecto
+# Directorios del proyecto y Modelo
 # ============================================================
 
-# app/utils/config.py
+# app/utils/config.py -> raíz del proyecto
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 DATA_DIR = BASE_DIR / "data"
-MODEL_DIR = BASE_DIR / "models" / "emotion-risk-beto"
 REPORTS_DIR = BASE_DIR / "reports"
+
+_LOCAL_MODEL_DIR = BASE_DIR / "models" / "emotion-risk-beto"
+
+# Si la carpeta local existe la usa; si no (en producción/Render), apunta a Hugging Face Hub
+MODEL_DIR = os.getenv(
+    "MODEL_DIR",
+    str(_LOCAL_MODEL_DIR) if _LOCAL_MODEL_DIR.exists() else "avarixo/emotion-risk-beto",
+)
 
 # ============================================================
 # Modelo
