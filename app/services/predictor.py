@@ -13,7 +13,7 @@ from app.database.models import Prediction
 
 HF_TOKEN = os.getenv("HF_TOKEN")
 MODEL_ID = os.getenv("MODEL_NAME", "avarixo/emotion-risk-beto")
-API_URL = f"https://api-inference.huggingface.co/models/{MODEL_ID}"
+API_URL = f"https://router.huggingface.co/hf-inference/models/{MODEL_ID}"
 
 
 class EmotionPredictor:
