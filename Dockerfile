@@ -5,7 +5,6 @@ ENV PYTHONUNBUFFERED=1 \
 
 WORKDIR /app
 
-# Instalar librerías básicas del sistema sin dependencias pesadas innecesarias
 RUN apt-get update && apt-get install -y --no-install-recommends \
     gcc \
     libpq-dev \
@@ -13,15 +12,10 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 COPY requirements.txt .
 
-# 1. Instalar PyTorch CPU primero de forma aislada para evitar agotar la RAM
-RUN pip install --no-cache-dir torch --index-url https://download.pytorch.org/whl/cpu
-
-# 2. Instalar el resto de dependencias
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-# Puerto configurable para Render ($PORT) y fallback a 8000 para Docker local
 ENV PORT=8000
 EXPOSE 8000
 

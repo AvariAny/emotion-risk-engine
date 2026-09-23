@@ -1,124 +1,87 @@
 """
-Predictor del Emotion Risk Engine.
+Predictor del Emotion Risk Engine mediante Hugging Face Inference API.
 """
 
-import torch
-
+import os
 from sqlalchemy.orm import Session
+from huggingface_hub import InferenceClient
 
-from transformers import (
-    AutoTokenizer,
-    AutoModelForSequenceClassification,
-)
-
-from app.utils.config import (
-    MODEL_DIR,
-    MAX_LENGTH,
-    DEVICE,
-    LABELS,
-)
-
+from app.utils.config import LABELS
 from app.utils.text_normalizer import normalize_text
-
 from app.database.models import Prediction
+
+HF_TOKEN = os.getenv("HF_TOKEN")
+MODEL_ID = os.getenv("MODEL_NAME", "avarixo/emotion-risk-beto")
 
 
 class EmotionPredictor:
 
     def __init__(self):
-
-        print("Cargando modelo BETO...")
-
-        self.tokenizer = AutoTokenizer.from_pretrained(MODEL_DIR)
-
-        self.model = AutoModelForSequenceClassification.from_pretrained(
-            MODEL_DIR
-        )
-
-        self.model.to(DEVICE)
-        self.model.eval()
-
-        print(f"Modelo cargado correctamente ({DEVICE})")
+        print(f"Conectando con Hugging Face Inference API ({MODEL_ID})...")
+        self.client = InferenceClient(model=MODEL_ID, token=HF_TOKEN)
+        print("Cliente de inferencia configurado exitosamente.")
 
     def predict(self, text: str, db: Session = None):
-
-        # 1) Normalización del texto ANTES de tokenizar
+        # 1) Normalización de texto
         original_text = text
         text = normalize_text(text)
 
-        # Fallback: si el normalizador deja el texto vacío,
-        # usamos el original para no romper la inferencia.
         if not text or not text.strip():
             text = original_text.strip()
 
-        # Si aún así está vacío, devolvemos algo coherente
         if not text:
             return {
                 "label": -1,
                 "class": None,
                 "confidence": 0.0,
-                "probabilities": {
-                    LABELS[i]: 0.0 for i in range(len(LABELS))
-                },
+                "probabilities": {LABELS[i]: 0.0 for i in range(len(LABELS))},
             }
 
-        # 2) Tokenización
-        inputs = self.tokenizer(
-            text,
-            return_tensors="pt",
-            truncation=True,
-            max_length=MAX_LENGTH,
-        )
+        # 2) Inferencia remota en Hugging Face
+        # Retorna una lista de dicts: [{'label': 'LABEL_0', 'score': 0.85}, ...]
+        hf_results = self.client.text_classification(text)
 
-        inputs = {
-            key: value.to(DEVICE)
-            for key, value in inputs.items()
-        }
+        # Mapear resultados a probabilidades
+        probabilities = {LABELS[i]: 0.0 for i in range(len(LABELS))}
+        best_label = 0
+        best_score = 0.0
 
-        # 3) Inferencia
-        with torch.no_grad():
+        for item in hf_results:
+            raw_label = item.label  # suele ser "LABEL_0", "LABEL_1" o el nombre de clase
+            score = round(float(item.score), 4)
 
-            outputs = self.model(**inputs)
+            # Extraer índice numérico si viene en formato LABEL_X
+            if "LABEL_" in raw_label:
+                idx = int(raw_label.replace("LABEL_", ""))
+            elif raw_label.isdigit():
+                idx = int(raw_label)
+            else:
+                # Si el modelo tiene guardados los nombres directos
+                idx = next((k for k, v in LABELS.items() if v == raw_label), 0)
 
-            probabilities = torch.softmax(
-                outputs.logits,
-                dim=1
-            )[0]
+            if idx in LABELS:
+                probabilities[LABELS[idx]] = score
 
-        prediction = int(torch.argmax(probabilities))
+            if score > best_score:
+                best_score = score
+                best_label = idx
 
-        confidence = round(
-            float(probabilities[prediction]),
-            4
-        )
+        confidence = best_score
 
-        # 4) Persistencia en base de datos (opcional)
+        # 3) Guardar en base de datos si existe sesión
         if db is not None:
-
             prediction_row = Prediction(
                 text=text,
-                risk=prediction,
+                risk=best_label,
                 confidence=confidence,
             )
-
             db.add(prediction_row)
             db.commit()
             db.refresh(prediction_row)
 
         return {
-
-            "label": prediction,
-
-            "class": LABELS[prediction],
-
+            "label": best_label,
+            "class": LABELS.get(best_label, "Desconocido"),
             "confidence": confidence,
-
-            "probabilities": {
-                LABELS[i]: round(
-                    float(probabilities[i]),
-                    4
-                )
-                for i in range(len(LABELS))
-            }
-
+            "probabilities": probabilities,
         }
