@@ -2,7 +2,6 @@
 name = "emotion-risk-engine"
 version = "2.0.0"
 description = "AI API for Emotional Risk Detection"
-readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
     # Web / API
@@ -32,23 +31,23 @@ dependencies = [
     "scipy",
 
     # Validation
-    "pydantic==2.13.5",
-    "pydantic_core==2.46.5",
-    "typing_extensions==4.16.0",
+    "pydantic>=2.0.0",
+    "typing_extensions",
 
     # HTTP client / utils
-    "requests==2.34.2",
-    "httpx==0.28.1",
-    "certifi==2026.7.22",
-    "urllib3==2.7.0",
-    "charset-normalizer==3.5.1",
-    "idna==3.19",
+    "requests",
+    "httpx",
+    "certifi",
+    "urllib3",
 ]
 
 [[tool.uv.index]]
 name = "pytorch-cpu"
 url = "https://download.pytorch.org/whl/cpu"
 explicit = false
+
+[tool.uv]
+index-strategy = "unsafe-best-match"
 
 [tool.vercel]
 entrypoint = "app.api.main:app"
