@@ -183,7 +183,16 @@ cloudflared tunnel --url http://localhost:8000
 }
 
 ```
+---
 
+## 🚧 Cliente Web / Aplicación (En Construcción)
+
+Actualmente se encuentra en desarrollo una interfaz web interactiva diseñada para consumir esta API en tiempo real. 
+
+### Próximas Características del Frontend:
+- **Analizador de Texto en Vivo:** Entrada dinámica con cálculo de riesgo y visualización de probabilidades por clase en tiempo real.
+- **Historial y Métricas:** Panel visual para consultar registros y tendencias almacenadas en la base de datos PostgreSQL (Neon).
+- **Alertas Preventivas:** Indicadores visuales y protocolos automáticos al detectar entradas de severidad crítica (Nivel 3).
 ---
 
 ## 👤 Autor
