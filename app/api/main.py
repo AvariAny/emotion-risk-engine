@@ -25,7 +25,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "https://localhost:8443",
-        "https://192.168.1.120:8443",
+        "http://192.168.1.120:8443",
     ],
     allow_methods=["GET", "POST", "OPTIONS"],
     allow_headers=["Content-Type"],
