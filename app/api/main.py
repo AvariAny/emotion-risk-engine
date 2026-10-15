@@ -26,6 +26,7 @@ app.add_middleware(
     allow_origins=[
         "https://localhost:8443",
         "http://192.168.1.120:8443",
+        "https://avaris-lab.vercel.app",
     ],
     allow_methods=["GET", "POST", "OPTIONS"],
     allow_headers=["Content-Type"],
