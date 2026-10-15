@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 
 from app.api.routes import router
 
@@ -19,5 +20,15 @@ description="AI API for Emotional Risk Detection"
 # Crea las tablas si no existen (usa Alembic si prefieres migraciones)
 
 Base.metadata.create_all(bind=engine)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "https://localhost:8443",
+        "https://192.168.1.120:8443",
+    ],
+    allow_methods=["GET", "POST", "OPTIONS"],
+    allow_headers=["Content-Type"],
+)
 
 app.include_router(router)
