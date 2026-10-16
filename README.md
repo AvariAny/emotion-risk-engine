@@ -1,200 +1,147 @@
-```markdown
-# Emotion Risk Engine 🧠⚡
+# Emotion Risk Engine V2
 
-[![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com/)
-[![BETO](https://img.shields.io/badge/Model-BETO%20(Spanish%20BERT)-yellow?style=for-the-badge)](https://huggingface.co/dccuchile/bert-base-spanish-wwm-cased)
-[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
-[![Neon](https://img.shields.io/badge/Neon-PostgreSQL-green?style=for-the-badge)](https://neon.tech/)
-[![Cloudflare](https://img.shields.io/badge/Cloudflare-Tunnel-orange?style=for-the-badge&logo=cloudflare)](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/)
+Proyecto experimental y educativo para clasificar texto en español en cuatro niveles de riesgo emocional. Incluye un predictor basado en BETO, una API FastAPI y persistencia en PostgreSQL. La demo web está en [AVARI’S//LAB](https://avaris-lab.vercel.app/).
 
-Motor de análisis y clasificación de riesgo emocional en texto en español de extremo a extremo. Desarrollado mediante fine-tuning sobre **BETO** (Spanish BERT), expuesto a través de una API modular en **FastAPI**, persistencia serverless con **PostgreSQL (Neon)** y despliegue seguro con **Docker** y **Cloudflare Tunnels**.
+> **Aviso:** Emotion Risk Engine no es un dispositivo médico ni un sistema clínico validado. Sus resultados son estimaciones del modelo; no sustituyen la evaluación, el diagnóstico ni el criterio de un profesional de la salud. Una confianza alta no garantiza que una predicción sea correcta ni demuestra precisión clínica.
+>
+> La API guarda en la base de datos el texto normalizado por el predictor y escribe en sus logs el texto original recibido. No introduzcas en la demo pública datos personales, información clínica identificable ni otros textos sensibles. El código actual no implementa anonimización, consentimiento ni una política de retención.
 
----
-
-## 🏗 Arquitectura del Sistema
+## Arquitectura actual
 
 ```text
-       [ Cliente / Frontend ]
-                 │
-                 ▼
-    [ Cloudflare Tunnel / Proxy ]
-                 │
-                 ▼
- [ FastAPI App (Docker / Uvicorn Server) ]
-        │                       │
-        ▼                       ▼
- 🧠 BETO Transformer     🗄️ Neon DB (PostgreSQL)
- (Inferencia en Memoria)  (Auditoría y Registros)
-
+Navegador (AVARI’S//LAB)
+        │ HTTPS: /health y /predict
+        ▼
+Cloudflare Quick Tunnel (opcional en Colab)
+        │
+        ▼
+FastAPI ───────► BETO desde Hugging Face Hub
+   │
+   └───────────► PostgreSQL (por ejemplo, Neon)
+                 guarda texto normalizado, clase,
+                 confianza y fecha
 ```
 
----
+El frontend usa `VITE_API_URL` como URL base del backend. La API permite el origen de producción `https://avaris-lab.vercel.app` y los orígenes locales configurados en `app/api/main.py`. CORS permite que el navegador lea respuestas; no autentica clientes ni protege endpoints.
 
-## ✨ Características Principales
+## Modelo y etiquetas
 
-* **Fine-Tuning Especializado:** Basado en BETO (`bert-base-spanish-wwm-cased`), calibrado para capturar matices de crisis y angustia en lenguaje cotidiano en español.
-* **API REST Asíncrona:** Construida con FastAPI, esquemas de tipado con Pydantic y documentación OpenAPI interactiva.
-* **Persistencia en la Nube:** Registro persistente de consultas y métricas de inferencia en PostgreSQL alojado en Neon.
-* **Aislamiento y Portabilidad:** Empaquetado completo en contenedor Docker orquestado con `docker-compose`.
-* **Exposición Segura:** Integración nativa con `cloudflared` para exponer la API a Internet sin necesidad de abrir puertos ni exponer IP pública.
+El predictor de la API, `app/services/predictor.py`, carga `AutoTokenizer` y `AutoModelForSequenceClassification` desde `MODEL_DIR`. La configuración (`app/utils/config.py`) usa un directorio local `models/emotion-risk-beto` si existe; en caso contrario usa el repositorio `avarixo/emotion-risk-beto` de Hugging Face Hub. El identificador BETO base `dccuchile/bert-base-spanish-wwm-cased` también aparece en la configuración, pero no es el valor que el predictor carga por defecto.
 
----
+Los índices y nombres definidos por la API son:
 
-## 📊 Niveles de Riesgo y Semántica
+| Índice (`label`) | Clase devuelta |
+| ---: | --- |
+| 0 | Sin riesgo |
+| 1 | Riesgo bajo |
+| 2 | Riesgo moderado |
+| 3 | Riesgo alto |
 
-El clasificador segmenta la entrada de texto en 4 niveles de severidad:
+El predictor normaliza espacios, mayúscula inicial y puntuación final, y limita la entrada del modelo a 128 tokens. `POST /predict` acepta textos de 1 a 1000 caracteres.
 
-| Etiqueta | Clase | Descripción | Acción Recomendada |
-| --- | --- | --- | --- |
-| **0** | **Sin riesgo** | Contenido neutral o expresiones cotidianas normales | Monitoreo pasivo |
-| **1** | **Riesgo bajo** | Estrés leve, cansancio situacional o frustración transitoria | Información y apoyo general |
-| **2** | **Riesgo moderado** | Tristeza recurrente, agobio persistente o ansiedad notable | Alerta preventiva |
-| **3** | **Riesgo alto** | Señales de crisis emocional aguda o desesperanza explícita | Protocolo de intervención inmediata |
+## API disponible
 
----
+FastAPI genera documentación interactiva en `/docs` cuando el servicio está en ejecución.
 
-## 📈 Rendimiento del Modelo (Evaluación BETO)
+| Método y ruta | Comportamiento |
+| --- | --- |
+| `GET /` | Nombre y versión de la API. |
+| `GET /health` | Devuelve `{"status":"ok"}`; es una respuesta básica de estado. |
+| `GET /version` | Devuelve la versión. |
+| `POST /predict` | Recibe `{"text":"..."}` y devuelve la predicción. |
+| `GET /history` | Devuelve los registros, incluido su texto. |
+| `GET /history/{prediction_id}` | Devuelve un registro, incluido su texto. |
+| `PATCH /history/{prediction_id}`, `PUT /history/{prediction_id}` | Actualiza el campo `risk`. |
+| `DELETE /history/{prediction_id}` | Elimina un registro. |
+| `GET /stats` | Devuelve cantidad total, confianza promedio y distribución por clase. |
+| `GET /alerts?risk_threshold=3` | Devuelve registros desde el umbral indicado, incluido su texto. El valor predeterminado es 3. |
+| `GET /export/json`, `GET /export/csv` | Exporta los registros, incluidos sus textos. |
 
-Evaluado sobre un conjunto de prueba independiente con métricas de alta precisión por clase:
+La respuesta de `POST /predict` tiene los campos `label` (entero de 0 a 3), `class` (nombre de la clase), `confidence` (confianza para la clase elegida) y `probabilities` (probabilidad por nombre de clase). Es un resultado del modelo, no una recomendación ni diagnóstico.
 
-| Etiqueta | Clase | Precision | Recall | F1-Score |
-| --- | --- | --- | --- | --- |
-| **0** | **Sin riesgo** | 0.9946 | 0.9391 | 0.9661 |
-| **1** | **Riesgo bajo** | 0.9417 | 0.9700 | 0.9557 |
-| **2** | **Riesgo moderado** | 0.9755 | 0.9950 | 0.9851 |
-| **3** | **Riesgo alto** | **0.9946** | **1.0000** | **0.9973** |
+### Persistencia y acceso
 
-> **Observación de Impacto Clínico/Técnico:**
-> En la clase más sensible (**Label 3: Riesgo alto**), el modelo alcanzó un **Recall de 1.0000**. Esto garantiza **cero falsos negativos**, asegurando que ningún caso con indicadores de riesgo crítico sea omitido o clasificado erróneamente.
-> 
-> 
+La tabla `predictions` almacena `text`, `risk` (índice de clase), `confidence` y `created_at`; el identificador es generado por la base de datos. El texto guardado es el texto normalizado por el predictor. Además, el endpoint registra en el log el texto original recibido, junto con clase y confianza. Si falla el registro en la base, el predictor hace rollback e informa una advertencia; el flujo de inferencia puede continuar.
 
----
+Las rutas de historial, alertas y exportación devuelven textos. En las rutas inspeccionadas no hay autenticación ni autorización. No expongas esta API con datos reales o sensibles ni asumas que CORS restringe el acceso a otros clientes.
 
-## 🛠 Tecnologías
+## Requisitos e instalación
 
-* **NLP & Deep Learning:** PyTorch, Hugging Face Transformers, Tokenizers, BETO.
-* **Backend:** FastAPI, Uvicorn, Pydantic, Python.
-* **Base de Datos:** PostgreSQL (Neon Tech).
-* **Infraestructura:** Docker, Docker Compose, Cloudflare `cloudflared`.
+Se requiere Python 3.10 o posterior, acceso a una base PostgreSQL y acceso al modelo local o a Hugging Face Hub. PyTorch y Transformers pueden descargar paquetes grandes; el modelo se descarga desde Hub al cargarlo si no existe localmente.
 
----
-
-## 📂 Estructura del Repositorio
-
-```text
-emotion-risk-engine/
-├── app/                  # Núcleo de la aplicación FastAPI
-│   ├── api/              # Definición de rutas y endpoints
-│   ├── core/             # Ajustes y configuración general
-│   ├── models/           # Esquemas de base de datos y validaciones
-│   └── services/         # Inicialización del modelo BETO y predictor
-├── data/                 # Datasets y procesamiento
-├── docs/                 # Documentación técnica adicional
-├── models/               # Pesos y artefactos del modelo
-├── reports/              # Reportes de entrenamiento y métricas
-├── scripts/              # Scripts de soporte y utilidades
-├── tests/                # Pruebas unitarias y de configuración
-├── Dockerfile            # Imagen base optimizada
-├── docker-compose.yml    # Definición de servicios
-├── requirements.txt      # Dependencias fijadas
-└── .env.example          # Plantilla para variables de entorno
-
-```
-
----
-
-## 🚀 Despliegue y Ejecución
-
-### 1. Variables de Entorno
-
-Copia la plantilla y configura tus accesos:
+Desde la raíz del repositorio, instala las dependencias de API y las dos dependencias ML que `requirements.txt` no incluye:
 
 ```bash
-cp .env.example .env
-
+python -m pip install -r requirements.txt
+python -m pip install torch transformers
 ```
 
-Valores requeridos en `.env`:
+`pyproject.toml` declara además dependencias de ML y análisis de datos, pero el Dockerfile instala únicamente `requirements.txt`. No se afirma que la imagen Docker actual pueda iniciar: le faltan `torch` y `transformers`, que importa el predictor. También `.dockerignore` no excluye `.env`, mientras que el Dockerfile copia el contexto completo. Revisa y corrige esas limitaciones antes de construir o distribuir una imagen con archivos locales.
 
-```env
-DATABASE_URL=postgresql://usuario:contraseña@ep-xyz.neon.tech/neondb?sslmode=require
-HF_TOKEN=hf_tu_token_aqui
-PORT=8000
+## Ejecución local
 
+Configura `DATABASE_URL` en el entorno del proceso con una base PostgreSQL a la que tengas acceso. No pegues la URL en documentación, capturas ni logs compartidos. El valor de ejemplo de `.env.example` corresponde al servicio `postgres` de Docker Compose y no es una configuración para Neon ni para una ejecución local fuera de Docker.
+
+```bash
+python -m uvicorn app.api.main:app --host 127.0.0.1 --port 8000
 ```
 
-### 2. Ejecutar con Docker (Recomendado)
+Al importar la aplicación se llama a `Base.metadata.create_all`; esto crea tablas ausentes, pero no sustituye un sistema de migraciones. El predictor se instancia al cargar las rutas, así que el arranque requiere que el modelo sea accesible.
+
+## Docker Compose
+
+El repositorio incluye `Dockerfile` y `docker-compose.yml`. Compose espera un archivo `.env` para el servicio API y configura un PostgreSQL local con volumen persistente. No uses las credenciales de desarrollo de Compose para servicios expuestos. La imagen tiene la limitación de dependencias indicada arriba; por eso estos archivos describen configuración existente, no una ejecución limpia verificada.
 
 ```bash
 docker compose up --build
-
 ```
 
-La documentación Swagger estará disponible automáticamente en:
-`http://localhost:8000/docs`
+## Neon y Google Colab
 
-### 3. Ejecución Local / Google Colab
+El notebook documenta cómo configurar `DATABASE_URL` mediante Colab Secrets, convertir el controlador a `psycopg2` y probar conectividad con `SELECT 1`. Esa comprobación no escribe datos.
 
-```bash
-# Instalar dependencias
-pip install -r requirements.txt
+Guía interactiva: [notebooks/emotion-risk-engine-v4.1.ipynb](notebooks/emotion-risk-engine-v4.1.ipynb).
 
-# Iniciar el servidor
-uvicorn app.api.main:app --host 0.0.0.0 --port 8000
+La celda de predicción directa del notebook no pasa una sesión de base de datos; la prueba HTTP a `POST /predict` sí crea un registro en la base configurada. Las solicitudes a ese endpoint desde cualquier cliente también pueden crear registros. Usa una base de prueba y únicamente texto ficticio. El notebook conserva outputs de una sesión anterior, incluida una URL temporal del túnel: no la reutilices y limpia los outputs antes de compartir una copia. Esos outputs no garantizan que Colab o la API estén disponibles actualmente.
 
+## Cloudflare Quick Tunnel y frontend
+
+El notebook puede iniciar `cloudflared tunnel --url http://localhost:8000` y detectar la URL pública `https://…trycloudflare.com`. Un Quick Tunnel proporciona una URL temporal que puede cambiar al crear otra sesión; no debe guardarse como dirección permanente.
+
+Para conectar el frontend, configura `VITE_API_URL` con la URL base vigente del backend, sin añadir `/health` ni `/predict`. En Vercel, actualiza la variable para el entorno de producción y vuelve a desplegar para que Vite incorpore el valor en la compilación. Comprueba que el backend esté activo y permita el origen del sitio. El frontend no descubre automáticamente una nueva URL temporal de Colab.
+
+## Métricas disponibles
+
+El reporte versionado en [`reports/classification_report.txt`](reports/classification_report.txt) informa resultados sobre 782 ejemplos del conjunto de evaluación: accuracy 0.9757 y macro F1 0.9760. Por clase, el soporte es 197, 200, 200 y 185 para las etiquetas 0–3, respectivamente. La [matriz de confusión](reports/confusion_matrix.png) también está versionada.
+
+Son métricas del reporte disponible en este repositorio; no las he recalculado en esta revisión. Describen ese conjunto y configuración, no garantizan rendimiento en otros textos, poblaciones o contextos. El recall 1.0000 reportado para la clase 3 no demuestra que el sistema vaya a detectar todos los casos reales ni valida uso clínico.
+
+## Estructura relevante
+
+```text
+app/
+├── api/             # Aplicación FastAPI, rutas y esquemas
+├── database/        # SQLAlchemy, conexión y modelo Prediction
+├── engine/          # Módulos de análisis/reglas
+├── preprocessing/   # Limpieza de datos
+├── services/        # Predictor BETO y modelo anterior
+└── utils/           # Configuración, logging y normalización
+data/                # Datos del proyecto
+docs/                # Diseño, anotación y planificación
+notebooks/           # Guías interactivas de Colab
+reports/             # Reportes y visualizaciones versionados
+scripts/             # Preparación, entrenamiento y evaluación
+tests/               # Comprobaciones existentes
 ```
 
-Para exponer la API a Internet mediante Cloudflare Tunnel:
+## Trabajo futuro (no implementado)
 
-```bash
-cloudflared tunnel --url http://localhost:8000
+- **V3 orientada a investigación:** evaluar datos autorizados, consentimiento informado cuando corresponda, minimización de datos, revisión de etiquetas, control de calidad y evaluación rigurosa antes de entrenar una nueva versión.
+- **Apoyo a profesionales de la salud:** explorar si la herramienta puede apoyar la revisión de señales, sin sustituir a profesionales ni afirmar detección o diagnóstico de enfermedades crónicas o psicológicas sin validación específica.
+- **Plataformas digitales:** investigar posibles herramientas para identificar señales en mensajes, considerando privacidad, permisos, falsos positivos y negativos, y protocolos de actuación adecuados.
 
-```
+Estas ideas son líneas de investigación, no funcionalidades disponibles ni promesas comerciales.
 
----
+## Licencia y estado de validación
 
-## 📡 Referencia de la API
-
-### Inferencia de Riesgo (`POST /predict`)
-
-**Payload:**
-
-```json
-{
-  "text": "me quiero morir"
-}
-
-```
-
-**Respuesta HTTP 200:**
-
-```json
-{
-  "label": 3,
-  "class": "Riesgo alto",
-  "confidence": 0.9961,
-  "probabilities": {
-    "Sin riesgo": 0.0002,
-    "Riesgo bajo": 0.0036,
-    "Riesgo moderado": 0.0001,
-    "Riesgo alto": 0.9961
-  }
-}
-
-```
----
-
-## 🚧 Cliente Web / Aplicación (En Construcción)
-
-Actualmente se encuentra en desarrollo una interfaz web interactiva diseñada para consumir esta API en tiempo real. 
-
-### Próximas Características del Frontend:
-- **Analizador de Texto en Vivo:** Entrada dinámica con cálculo de riesgo y visualización de probabilidades por clase en tiempo real.
-- **Historial y Métricas:** Panel visual para consultar registros y tendencias almacenadas en la base de datos PostgreSQL (Neon).
-- **Alertas Preventivas:** Indicadores visuales y protocolos automáticos al detectar entradas de severidad crítica (Nivel 3).
----
-
-## 👤 Autor
-
-Desarrollado por **AvariAny**.
+Este README documenta el código y los artefactos presentes en el repositorio. No implica que se haya ejecutado aquí una compilación Docker, una evaluación nueva, pruebas de integración o una validación clínica.
